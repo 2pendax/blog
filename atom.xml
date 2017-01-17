@@ -1,44 +1,477 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>🙂pendax</title>
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2017-01-17T09:09:56.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://pendax.me/"/>
+  <updated>2017-01-17T15:37:35.000Z</updated>
+  <id>http://pendax.me/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>pendax</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2017/01/17/hello-world/"/>
-    <id>http://yoursite.com/2017/01/17/hello-world/</id>
-    <published>2017-01-17T09:09:56.000Z</published>
-    <updated>2017-01-17T09:09:56.000Z</updated>
+    <title>重慶森林 (1994)</title>
+    <link href="http://pendax.me/2016/10/07/chongqing/"/>
+    <id>http://pendax.me/2016/10/07/chongqing/</id>
+    <published>2016-10-06T16:00:00.000Z</published>
+    <updated>2017-01-17T15:37:35.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+    <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/65e4f1e6jw1f9jgx254ixj20go0ayabv.jpg" alt=""></p>
+<p><strong>每天你都会有机会和别人擦身而过，你也许对他一无所知，不过或许有一天他会变成你的朋友或者知己。</strong></p>
+<a id="more"></a>
+<p>又是一个十一长假，似乎在宣告这一年又快要过去了。外面人山人海，我这种懒得连呼吸都感觉费劲的胖子更喜欢窝在沙发上有个电脑，有杯清水，如果再有一本能看完用“卧槽”这种高级词汇形容的书，如果再有一个看完想写下点什么的电影，那真是太幸福了。</p>
+<p>为什么找出这部电影来看呢？因为最近早上、中午、晚上上厕所时总能看到有人在感叹《当我从你的全世界路过》讲的是他们自己的故事，我立即在马桶上看完了这个电影，果真我对自己的选择毫不后悔，除了DJ这个职业吸引我之外，对这个电影丝毫没有共鸣。</p>
+<h1 id="1"><a href="#1" class="headerlink" title="1"></a>1</h1><p>《重庆森林》的魔力是总是能让我看到不同时期的自己。初中时的恋爱更像是金城武的那份痴痴的守护，一天中最期待的事情就是买好了她喜欢的食物等着她一起放学，就是傻傻的看着她，看着她吃完袋子里最后的一块，看着她傲娇的把吃剩的垃圾扔给我，那种幸福感回想起来比写了一段没有Bug的代码还要开心。分开那晚，我第一次在操场上跑了15圈，那个记录一直保持到现在。上个学期，我在操场跑步，收到她的信息，她说她五一要结婚了，我恍惚了一下，然后关上了手机。</p>
+<h1 id="2"><a href="#2" class="headerlink" title="2"></a>2</h1><p>凤梨罐头的保质期真的比大多数爱情长得太多了。记得碰到过一首歌名字叫做《赏味期限》，我纠结于这四个字的意思，查了一下原来说的是保质期啊，我惊叹于我自己的弱智。“有趣的人”似乎是大家都想认识和交往的，而我总是在他们的有趣的背后嗅出一股伪装的气息，可能是我见过的真正把有趣的人太少吧。</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=238617&auto=0&height=66"></iframe>
+
+<h1 id="3"><a href="#3" class="headerlink" title="3"></a>3</h1><p>始终忘不了的是店里王菲听着喧闹的《California dreaming》的场景。</p>
+<p>随意短发，黑色眼眸，缥缈身影，撩人律动…</p>
+<p>我想我喜欢短发女生的原因大半源于此吧。</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=4875911&auto=0&height=66"></iframe>
+
+
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/65e4f1e6jw1f9jgx254ixj20go0ayabv.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;每天你都会有机会和别人擦身而过，你也许对他一无所知，不过或许有一天他会变成你的朋友或者知己。&lt;/strong&gt;&lt;/p&gt;
     
     </summary>
     
+      <category term="精神像个0" scheme="http://pendax.me/categories/%E7%B2%BE%E7%A5%9E%E5%83%8F%E4%B8%AA0/"/>
+    
+    
+      <category term="Movie" scheme="http://pendax.me/tags/Movie/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>你并不需要用户模型（Persona）</title>
+    <link href="http://pendax.me/2016/09/24/you%20don&#39;t%20need%20them/"/>
+    <id>http://pendax.me/2016/09/24/you don&#39;t need them/</id>
+    <published>2016-09-24T03:07:58.000Z</published>
+    <updated>2017-01-17T15:10:41.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>但凡看过产品设计类的书，都可能会碰到关于用户模型的讲述，比如那本著名的《About Face ：交互设计精髓》。这篇文章的作者提出了一些用户模型的问题和更好的解决方案。</p>
+<a id="more"></a>
+<p>已经有很多文章说明了如何在设计的过程中使用用户模型，然而在过去的很多年里我总是回避去创建一个详细的用户模型，因为用户模型总是掺杂着个人对于产品的“偏见”。</p>
+<p>在我的职业生涯里，我碰到过的用户模型里有性别歧视、种族歧视或是长年养成的刻板印象。我认为我的用户模型里不会有掺杂进这些东西，但是事实并非如此，没有一个用户模型是完美的。</p>
+<p>这些用户模型是危险的，被创建的无意识的掺杂着偏见的用户模型最终将导致一个带有偏见的产品，这种理解上的偏差将会在产品上一直循环下去。</p>
+<blockquote>
+<p>Personas are imaginary customers defined by attributes that don’t acknowledge causality.<br> <a href="https://blog.intercom.com/using-job-stories-design-features-ui-ux/" target="_blank" rel="external">@ALANKLEMENT</a></p>
+</blockquote>
+<h2 id="用户模型的失败"><a href="#用户模型的失败" class="headerlink" title="用户模型的失败"></a>用户模型的失败</h2><p>用户模型失败之前都会被打印出来（<a href="https://en.wikipedia.org/wiki/Dead_tree" target="_blank" rel="external">Dead tree</a>）。他们往往以一系列的需求假设开始，而需求的假设往往是错的，就像把所有的需求的假设放在软件开发合同里一样错误。<br>这些假设在现实面前通常是不成立的。我曾经碰到的这样一个用户模型，一个女士正在寻找真爱或者正在尝试减肥。创建用户模型时认为：是否忽略潜在的性别这个因素对这两件事来说根本不重要。但是一天结束时，产品的决策却还是由用户模型里的因素决定。</p>
+<p>真正决定产品设计的因素没有记录在用户模型里面，这是硬伤。</p>
+<h2 id="用户模型浪费时间"><a href="#用户模型浪费时间" class="headerlink" title="用户模型浪费时间"></a>用户模型浪费时间</h2><p>用户模型创建的错误将导致整个团队沿着错误方向走下去。用户故事往往以不正确的优先级创建，而有时他们根本不需要被创建。</p>
+<p>聚焦于满足用户模型的需求也会导致团队忘记了现实中的用户可以帮助他们找出产品的方向并且影响产品。而用户模型的创建就像是在真实用户和设计者之间的一面墙。这将会造成没有必要的修改和毫无进展的局面（wheel spinning）。</p>
+<p>##替代的方案<br>The Jobs to Be Done (<a href="https://jtbd.info/" target="_blank" rel="external">JTBD</a>框架提供一个替代传统用户模型的方案。对于产品设计师来说，要关注用户完成一项工作所需要的产品或者服务。</p>
+<p>JTBD这个框架的一个关键的部分就是用“工作故事“代替”用户故事“。工作故事聚焦的是动机而不是人。这帮助减少了在这个故事中的偏见，但能够增强对于这个需求的认知。</p>
+<p>一个典型的用户故事是这样的：</p>
+<blockquote>
+<p>作为Matt，我想能够快速支付。</p>
+</blockquote>
+<p>一开始，作为一个设计者或开发者需要知道Matt是谁。这条信息一般会存在用户模型文档里并且在项目进展过程中很少作为参考。</p>
+<p>一旦他们知道了Matt是谁，然后就会接着挖需求。不幸的是，当最开始被创建的时候这个故事缺乏一些内容。</p>
+<p>输入工作故事：</p>
+<blockquote>
+<p>当我带着两个孩子在商店里，我想快速支付，这样我就不用追着孩子到处跑了。</p>
+</blockquote>
+<p>在这个例子里，用户模型早已经不存在了。带给团队的是一个更加清晰的用户需求，他们能够感知用户的使用场景，接下来就可以解决这个需求了。</p>
+<p> 本文根据<a href="https://hondo.wtf/about/" target="_blank" rel="external">@Matthew Crist</a>的<a href="https://hondo.wtf/posts/on-personas/?utm_campaign=Revue%20newsletter&amp;utm_medium=Newsletter&amp;utm_source=revue" target="_blank" rel="external">《Personas, you don’t need them</a>》所译，整篇翻译带有个人理解，如有错误，请您指出。如需转载，需注英文出处。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;但凡看过产品设计类的书，都可能会碰到关于用户模型的讲述，比如那本著名的《About Face ：交互设计精髓》。这篇文章的作者提出了一些用户模型的问题和更好的解决方案。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="现实像个o" scheme="http://pendax.me/categories/%E7%8E%B0%E5%AE%9E%E5%83%8F%E4%B8%AAo/"/>
+    
+    
+      <category term="Product" scheme="http://pendax.me/tags/Product/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>理解JavaScript闭包（1）</title>
+    <link href="http://pendax.me/2016/09/21/closure/"/>
+    <id>http://pendax.me/2016/09/21/closure/</id>
+    <published>2016-09-20T16:00:00.000Z</published>
+    <updated>2017-01-17T15:40:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>闭包是个什么鬼？</p>
+<a id="more"></a>
+<h2 id="闭包的概念"><a href="#闭包的概念" class="headerlink" title="闭包的概念"></a>闭包的概念</h2><p>关于闭包的概念有下面两种说法：</p>
+<ol>
+<li>有权访问另一个函数作用域中变量的     <strong>函数</strong>。</li>
+<li><strong>函数和相关的执行环境</strong>所组成的实体。</li>
+</ol>
+<!--more-->
+<p>《JavaScript高级程序设计》（第三版）中讲到闭包是第一种说法，但是在示例代码中可以看出执行环境与闭包密不可分，第二种说法显然更加准确。在查找资料的过程中，发现了<a href="https://github.com/wintercn/blog/issues/3" target="_blank" rel="external">winter关于这个问题的考证</a>。</p>
+<h2 id="开吃之前"><a href="#开吃之前" class="headerlink" title="开吃之前"></a>开吃之前</h2><p>吃“闭包”之前，觉得还是有必要了解一下作用域链的相关知识。</p>
+<hr>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">var size = &quot;big&quot;;</div><div class="line"></div><div class="line">function changeSize()&#123;</div><div class="line">	var anotherSize = &apos;middle&apos;;</div><div class="line"></div><div class="line">	function swapSize()&#123;</div><div class="line">		var tempSize =  anotherSize;</div><div class="line">		anotherSize = size;</div><div class="line">		size = tempSize;</div><div class="line">		//可以访问size、anotherSize、tempSize </div><div class="line">	&#125;</div><div class="line">	swapSize();</div><div class="line">	//可以访问size、anotherSize</div><div class="line">&#125; </div><div class="line">changeSize(); </div><div class="line">//可以访问size</div></pre></td></tr></table></figure>
+<p>运行结果看：在changSize函数内调用其内部函数swapSize是可以执行的，若在changeSize函数外调用则无效。</p>
+<p>分析看：内部环境可以通过作用链访问外部环境，但是，外部环境不能够访问内部环境中的任何变量和参数。</p>
+<hr>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">for (var i = 0 ;i &lt; 10; i++ )&#123;</div><div class="line">   	dosomething(i);</div><div class="line">   &#125;</div><div class="line">   alert(i); //10</div></pre></td></tr></table></figure>
+<p>在JavaScript中没有块级作用域，上述例子里变量i在执行完循环的过程后，变量被添加到了当前执行环境中（此处为全局环境），所以i为10。</p>
+<h2 id="开吃"><a href="#开吃" class="headerlink" title="开吃"></a>开吃</h2><p>1.一个简单的例子</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">var globalVar;</div><div class="line">var size = &quot;big&quot;;</div><div class="line">document.write(&quot;size is &quot;+ size+&apos;&lt;br/&gt;&apos;);</div><div class="line">function changeSize()&#123;</div><div class="line">	var anotherSize = &apos;middle&apos;;</div><div class="line">	document.write(&apos;anotherSize is &apos;+ anotherSize+&quot;&lt;br/&gt;&quot;);</div><div class="line"></div><div class="line">	function swapSize()&#123;</div><div class="line">		var tempSize =  anotherSize;</div><div class="line">		anotherSize = size;</div><div class="line">		size = tempSize;</div><div class="line">		document.write(&apos;afer swap,size is &apos;+ size+&quot;&lt;br/x&gt;&quot;);</div><div class="line">		 </div><div class="line">	&#125;</div><div class="line">      globalVar = swapSize;</div><div class="line">	&#125;</div><div class="line">    </div><div class="line">   changeSize(); </div><div class="line">   globalVar();</div><div class="line">   </div><div class="line">  /*size is big</div><div class="line">   anotherSize is middle</div><div class="line">   afer swapping,size is middle  */</div></pre></td></tr></table></figure>
+<p>这里我将内部函数通过引用保存在全局变量中得以逃出魔爪。</p>
+<hr>
+<hr>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">var size = &quot;big&quot;;</div><div class="line">document.write(&quot;size is &quot;+ size+&apos;&lt;br/&gt;&apos;);</div><div class="line">function changeSize()&#123;</div><div class="line">	var anotherSize = &apos;middle&apos;;</div><div class="line">	document.write(&apos;anotherSize is &apos;+ anotherSize+&quot;&lt;br/&gt;&quot;);</div><div class="line"></div><div class="line">	function swapSize()&#123;</div><div class="line">		var tempSize =  anotherSize;</div><div class="line">		anotherSize = size;</div><div class="line">		size = tempSize;</div><div class="line">		document.write(&apos;afer swap,size is &apos;+ size+&quot;&lt;br/x&gt;&quot;);</div><div class="line">		 </div><div class="line">	&#125;</div><div class="line">      return swapSize;</div><div class="line">	&#125;</div><div class="line">    </div><div class="line">   var globalcs=changeSize(); </div><div class="line">   globalcs();</div></pre></td></tr></table></figure>
+<p>这里通过返回内部函数的引用给他爸爸，调用changesize获得的内部函数的引用可以保存在全局变量之中。</p>
+<p>2.一个有趣的例子</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">function makeAdder(x) &#123;</div><div class="line">  return function(y) &#123;</div><div class="line">    return x + y;</div><div class="line">  &#125;;</div><div class="line">&#125;</div><div class="line"></div><div class="line">var add5 = makeAdder(5);</div><div class="line">var add10 = makeAdder(10);</div><div class="line"></div><div class="line">console.log(add5(2));  // 7</div><div class="line">console.log(add10(2)); // 12</div></pre></td></tr></table></figure>
+<p>add5和add10是两个闭包，函数定义相同，环境不同。</p>
+<p>3.一个易错的例子</p>
+<p>循环当中的闭包：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">for(var i = 0; i &lt; 10; i++) &#123;</div><div class="line">    setTimeout(function() &#123;</div><div class="line">        console.log(i);  </div><div class="line">    &#125;, 1000);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>解决办法：</p>
+<ul>
+<li>创建一个匿名函数强制执行</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">for(var i = 0; i &lt; 10; i++) &#123;</div><div class="line">    (function(e) &#123;</div><div class="line">        setTimeout(function() &#123;</div><div class="line">            console.log(e);  </div><div class="line">        &#125;, 1000);</div><div class="line">    &#125;)(i);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<ul>
+<li>从匿名包装器返回一个函数</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">for(var i = 0; i &lt; 10; i++) &#123;</div><div class="line">    setTimeout((function(e) &#123;</div><div class="line">        return function() &#123;</div><div class="line">            console.log(e);</div><div class="line">        &#125;</div><div class="line">    &#125;)(i), 1000)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="参考资料："><a href="#参考资料：" class="headerlink" title="参考资料："></a>参考资料：</h2><ul>
+<li>MDN(<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Closures" target="_blank" rel="external">https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Closures</a>)</li>
+<li>JavaScript秘密花园（<a href="http://bonsaiden.github.io/JavaScript-Garden/zh/#function.closures）" target="_blank" rel="external">http://bonsaiden.github.io/JavaScript-Garden/zh/#function.closures）</a></li>
+<li>winter的考证（<a href="https://github.com/wintercn/blog/issues/3）" target="_blank" rel="external">https://github.com/wintercn/blog/issues/3）</a></li>
+<li>一篇符合认知规律的介绍（<a href="http://www.cnblogs.com/dolphinX/archive/2012/09/29/2708763.html）" target="_blank" rel="external">http://www.cnblogs.com/dolphinX/archive/2012/09/29/2708763.html）</a></li>
+<li>这篇文章汇集了有关闭包的概念、应用及其在一些编程语言中的表现形式（<a href="http://www.ibm.com/developerworks/cn/linux/l-cn-closure/index.html#note_1）**" target="_blank" rel="external">http://www.ibm.com/developerworks/cn/linux/l-cn-closure/index.html#note_1）**</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;闭包是个什么鬼？&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="现实像个o" scheme="http://pendax.me/categories/%E7%8E%B0%E5%AE%9E%E5%83%8F%E4%B8%AAo/"/>
+    
+    
+      <category term="JavaScript" scheme="http://pendax.me/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>To Live （1994）</title>
+    <link href="http://pendax.me/2016/09/14/tolive/"/>
+    <id>http://pendax.me/2016/09/14/tolive/</id>
+    <published>2016-09-14T09:49:00.000Z</published>
+    <updated>2017-01-17T15:24:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<p> <img src="http://ww4.sinaimg.cn/large/65e4f1e6jw1f9jgvmy1a2j20go09d3zz.jpg" alt=""></p>
+<blockquote>
+<p>鸡长大了变成了鹅，鹅长大了变成了羊，羊长大了变成了牛，牛长大了呢？</p>
+</blockquote>
+<a id="more"></a>
+<p>《许三观卖血记》和《活着》是同一个时间段看的，当时觉得卖血这事留下的印象远比福贵的人生起伏要来的深刻，后来屡次在学校厕所上看到精子库的招贤纳士帖，这更唤起了我对“卖血记”的记忆，再加上“大跃进”、“炼钢”等背景的重叠，这两部作品最终在我脑子里模糊成了一部以许三观卖血记为主线，穿插着一些关于福贵故事的长篇小说。</p>
+<p>这部电影中一直出现的皮影在原作中好像是没有的，但我觉得皮影的加入让这部戏显得立挺起来。皮影这一传统艺术成为了战争、斗争、抗争的缓合剂，一针下去，我感觉镇定了许多，那种惨痛除了观者的唏嘘似乎也可以找到另外的出口。</p>
+<p>片子中的孩子们是我关注的另外一个点。我非常喜欢的是福贵的儿子，那种有些倔强、有些淘气又有些勇敢是我特别喜欢的状态。我想啊，是不是在那个更加真实的、单纯的、或者说有些傻的年代里才有可能看到大人身上也有孩子这般的可爱呢？福贵背着儿子送去学校的路上，第一次出现了：“鸡长大了变成了鹅，鹅长大了变成了羊，羊长大了变成了牛，牛长大了变成共产主义..”这段话，而这段话的下一幕却是一个晴天霹雳 —“ 儿子的死亡”。还有福贵的女儿，一个哑巴。这个角色让我想到在那个时代，是不是做一个“哑巴”才能生存下去？答案显然不是一个是或者否那么简单，你看那个被批斗的王医生，一口气吃了七个馒头，差点噎死，在大出血面前做出来的也叫“沉默”。再到富贵的外孙，“鸡长大了变成了鹅，鹅长大了变成了羊，羊长大了变成了牛，牛长大了..”这段话被再次提起，但是时代给出的答案不再是共产主义，具体是什么，福贵也不知道，但是他相信总会是越来越好吧。</p>
+<p>现在再看，也许觉得《活着》的故事要比《许三观卖血记》更加惨痛。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt; &lt;img src=&quot;http://ww4.sinaimg.cn/large/65e4f1e6jw1f9jgvmy1a2j20go09d3zz.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;鸡长大了变成了鹅，鹅长大了变成了羊，羊长大了变成了牛，牛长大了呢？&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="精神像个0" scheme="http://pendax.me/categories/%E7%B2%BE%E7%A5%9E%E5%83%8F%E4%B8%AA0/"/>
+    
+    
+      <category term="Movie" scheme="http://pendax.me/tags/Movie/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Failed to connect to github.com(403)</title>
+    <link href="http://pendax.me/2016/09/10/Failed%20to%20connect%20to%20github.com%20port%20443/"/>
+    <id>http://pendax.me/2016/09/10/Failed to connect to github.com port 443/</id>
+    <published>2016-09-10T04:10:41.000Z</published>
+    <updated>2016-09-10T15:22:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h2><p>无法使用<br>git clone <a href="https://github.com/angular/angular-phonecat.git" target="_blank" rel="external">https://github.com/angular/angular-phonecat.git</a><br>返回错误信息：<br>Failed to connect to github.com port 443: Operation timed out</p>
+<a id="more"></a>
+<h2 id="问题查询和已尝试的方法："><a href="#问题查询和已尝试的方法：" class="headerlink" title="问题查询和已尝试的方法："></a>问题查询和已尝试的方法：</h2><p>查询：</p>
+<ul>
+<li>Google错误信息</li>
+<li>去GitHub找相关Issues</li>
+</ul>
+<p>1.查看SSH是否正常<br>git clone git@github.com:Tomatoesp/LearnGit<br>返回错误信息：ssh: connect to host github.com port 22: Operation timed out</p>
+<p>通过<a href="https://help.github.com/articles/using-ssh-over-the-https-port/" target="_blank" rel="external">这个方法</a>成功<strong>设置</strong>后</p>
+<ul>
+<li>执行gitclone git@github.com:Tomatoesp/LearnGit<br>操作成功</li>
+<li>再执行gitclone <a href="https://github.com/Tomatoesp/LearnGit" target="_blank" rel="external">https://github.com/Tomatoesp/LearnGit</a><br>操作失败后返回了最初的错误信息：<br>Failed to connect to github.com port 443: Operation timed out</li>
+</ul>
+<p>2.猜测可能是代理的问题<br>猜测根据：昨天用npm转cnpm过程中，npm -install操作无效，改了npm的代理后生效。</p>
+<blockquote>
+<p>proxy=<a href="http://myproxy:8080/" target="_blank" rel="external">http://myproxy:8080/</a><br>https-proxy=<a href="http://myproxy:8080" target="_blank" rel="external">http://myproxy:8080</a></p>
+</blockquote>
+<p> 查找解决方案：</p>
+<ul>
+<li><a href="http://stackoverflow.com/questions/18356502/github-failed-to-connect-to-github-443-windows-failed-to-connect-to-github" target="_blank" rel="external">stackoverflow答案1</a>（windows，感觉和系统没关系）</li>
+<li><a href="http://stackoverflow.com/questions/783811/getting-git-to-work-with-a-proxy-server" target="_blank" rel="external">stackoverflow答案2</a>（答案1的细节补充版）</li>
+</ul>
+<p>结合上述两个答案更改代理配置：<br>git config –global http.proxy <a href="http://username:passward@proxy:port" target="_blank" rel="external">http://username:passward@proxy:port</a></p>
+<p>再次执行get clone<br>git clone <a href="https://github.com/Tomatoesp/LearnGit" target="_blank" rel="external">https://github.com/Tomatoesp/LearnGit</a></p>
+<p>返回错误信息：<br>unable to access ‘<a href="https://github.com/Tomatoesp/LearnGit/" target="_blank" rel="external">https://github.com/Tomatoesp/LearnGit/</a>‘: Failed to connect to 162.211.226.33 port 1080: <strong>Connection refused</strong><br>问题未解决</p>
+<p>3.猜测是dns的问题<br>默认dns是8.8.8.8，第二位的是8.8.8.4。猜测不成立</p>
+<p>4.其他问题</p>
+<ul>
+<li><a href="https://status.github.com/messages" target="_blank" rel="external">GitHub的问题?</a>(显然不是…)</li>
+<li>git config –global url.”<a href="https://&quot;.insteadOf" target="_blank" rel="external">https://&quot;.insteadOf</a> git://    无效</li>
+</ul>
+<h2 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h2><ul>
+<li>ping 192.30.252.128（github.com）不通，traceroute后发现没有发出去，确定了这个方向后，再次查询，找到了<a href="http://blog.csdn.net/hustsselbj/article/details/46842191" target="_blank" rel="external">这个答案</a>，顺利解决了我的问题。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;问题描述：&quot;&gt;&lt;a href=&quot;#问题描述：&quot; class=&quot;headerlink&quot; title=&quot;问题描述：&quot;&gt;&lt;/a&gt;问题描述：&lt;/h2&gt;&lt;p&gt;无法使用&lt;br&gt;git clone &lt;a href=&quot;https://github.com/angular/angular-phonecat.git&quot;&gt;https://github.com/angular/angular-phonecat.git&lt;/a&gt;&lt;br&gt;返回错误信息：&lt;br&gt;Failed to connect to github.com port 443: Operation timed out&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="现实像个o" scheme="http://pendax.me/categories/%E7%8E%B0%E5%AE%9E%E5%83%8F%E4%B8%AAo/"/>
+    
+    
+      <category term="Git" scheme="http://pendax.me/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Eat Drink Man Woman</title>
+    <link href="http://pendax.me/2016/09/10/Eat-Drink-Man-Woman/"/>
+    <id>http://pendax.me/2016/09/10/Eat-Drink-Man-Woman/</id>
+    <published>2016-09-10T04:10:41.000Z</published>
+    <updated>2016-10-24T15:47:19.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>“饮食男女，人之大欲存焉。”  </p>
+</blockquote>
+<p>昨晚又把李安的《饮食男女》看了一遍，第一次看是高中，还记得那晚写了一套满是红叉叉的理综试题。总觉得这片子就是生活，生活的片段也许是这片子的电视剧版吧。</p>
+<a id="more"></a>
+<p>“食、色，性也。”人终究还是逃不出这几样，如果强行要加或许还有“梦想”，“情怀”，“抱负”，但当谈到这些岂不是又回到了“形而上”的思考？</p>
+<p>整部片子的节奏让我感觉到十分的舒服，可能是剧中穿插的一些在厨房做饭的镜头安抚了我躁动的心。每次看到老朱在厨房忙碌时的场景。我就会想起我的爷爷，爷爷总是能做出各种我意想不到的美味。记起小时候住在爷爷家里，早晨的那碗面真的令人垂涎三尺。面、蛋、汤既能各自独成一菜又可相互融合，入口鲜香，入胃舒畅，回味无穷。现在每次在学校吃面，都在心里吐槽这面这汤这蛋，总归是这食物里面没有感情和爱的。</p>
+<p>“家庭聚餐”更像是这部片子的一条暗线，主人公们总是在饭桌上宣布有关自己的消息，然后整个的片子的剧情开始进一步的发展。我真心的觉得，一家人能够一起吃饭真是令人羡慕的一件事。“团圆”这个词在我的印象里就是一家人都坐在饭桌上，举起酒杯的那一刻，或许才叫团圆，但除了过年的几天外觉得这样的日子真的越来越少。记忆中爸爸不是在公司就是在外地的公司，生活中大多数的饭都是和妈妈在一起吃的，所以成长过程中的大多数喜悦和苦恼也是在饭桌上讲给了妈妈。但还是超级感谢我爸，他总是用行动告诉我怎样做一个敢于担当的男人。</p>
+<p>很多人都说这部片子的结局是出人意料和戏剧化的，老朱的晚年伴侣并不是梁伯母，而是她的女儿。除了宣布那一秒的些许惊讶，我似乎瞬间就理解了，这种有所突破性的结局是我喜欢的，也许这更符合这部片子想要表达的东西。当老朱一辈子最好的朋友离开了人间，当女儿们都找到了归属离开了他，当一个没有味觉的顶级大厨到了暮年…如果不选择重新开始，还能做出怎样的选择呢？</p>
+<p>最后的最后，老朱恢复了味觉，他和家倩之间那堵墙瓦解，空气中终于可以自由的传递爱和关心，或许这个时候的食物才是真正有感情、有味道的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;“饮食男女，人之大欲存焉。”  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;昨晚又把李安的《饮食男女》看了一遍，第一次看是高中，还记得那晚写了一套满是红叉叉的理综试题。总觉得这片子就是生活，生活的片段也许是这片子的电视剧版吧。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="精神像个0" scheme="http://pendax.me/categories/%E7%B2%BE%E7%A5%9E%E5%83%8F%E4%B8%AA0/"/>
+    
+    
+      <category term="Movie" scheme="http://pendax.me/tags/Movie/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Learn Git(3)-Rebase和Merge</title>
+    <link href="http://pendax.me/2016/08/14/rebase/"/>
+    <id>http://pendax.me/2016/08/14/rebase/</id>
+    <published>2016-08-13T16:00:00.000Z</published>
+    <updated>2016-09-24T08:24:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>这还是一篇学习记录。</p>
+</blockquote>
+<a id="more"></a>
+<p>自己用的过程中没有用到过Rebase,但是觉得用Merge那些合并的线交叉起来让人头疼，Rebase的提交看起来则要简洁的多，决定了解一下Rebase。</p>
+<!-- more -->
+<ul>
+<li><a href="http://pinkyjie.com/2014/08/10/git-notes-part-3/" target="_blank" rel="external">http://pinkyjie.com/2014/08/10/git-notes-part-3/</a><br>这篇感觉写的通俗易懂，一看就是作者认真实践后的总结，非常值得我学习。</li>
+<li><a href="https://www.atlassian.com/git/tutorials/merging-vs-rebasing/" target="_blank" rel="external">https://www.atlassian.com/git/tutorials/merging-vs-rebasing/</a><br>这篇讲解的更为详细一些。</li>
+</ul>
+<p>ps：认真实践后我会再来重新写这篇文章，先占坑。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;这还是一篇学习记录。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="现实像个o" scheme="http://pendax.me/categories/%E7%8E%B0%E5%AE%9E%E5%83%8F%E4%B8%AAo/"/>
+    
+    
+      <category term="Git" scheme="http://pendax.me/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Learn Git(2)-Merge Conflict</title>
+    <link href="http://pendax.me/2016/08/11/mergeconfilct/"/>
+    <id>http://pendax.me/2016/08/11/mergeconfilct/</id>
+    <published>2016-08-10T16:00:00.000Z</published>
+    <updated>2016-09-24T08:23:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>这也是一篇学习记录。</p>
+</blockquote>
+<a id="more"></a>
+<h2 id="什么情况下会出现合并冲突"><a href="#什么情况下会出现合并冲突" class="headerlink" title="什么情况下会出现合并冲突"></a>什么情况下会出现合并冲突</h2><ul>
+<li>两个人改了同一份文件的同一行代码</li>
+<li>一个人改了另一个人删掉的代码</li>
+<li>其他（再遇到回来补充）</li>
+</ul>
+<!-- more -->
+<h2 id="模拟一个冲突"><a href="#模拟一个冲突" class="headerlink" title="模拟一个冲突"></a>模拟一个冲突</h2><p>第一次在master上修改：<br><img src="http://ww2.sinaimg.cn/large/72f96cbajw1f6pzif9y5ej20e002eaaa.jpg" alt="屏幕快照 2016-08-11 18.19.30.png"><br>第二次转换到分支dev上修改：<br><img src="http://ww1.sinaimg.cn/large/72f96cbajw1f6pzjcjwapj20eu01wt8y.jpg" alt="屏幕快照 2016-08-11 18.31.01.png"><br>然后将dev合并到master上面<br><img src="http://ww1.sinaimg.cn/large/72f96cbajw1f6pzh324ogj20sc0icjwz.jpg" alt="18:28:55.jpg"></p>
+<h2 id="如何解决合并冲突"><a href="#如何解决合并冲突" class="headerlink" title="如何解决合并冲突"></a>如何解决合并冲突</h2><p>1.打开文件清理冲突<br>打开你的文件快速查找“&lt;&lt;&lt;&lt;&lt;&lt;&lt;”<br><img src="http://ww2.sinaimg.cn/large/72f96cbajw1f6pzpaitdhj20fk0hgacc.jpg" alt="屏幕快照 2016-08-11 18.36.09.png"><br>看一下分别是什么<br><img src="http://ww4.sinaimg.cn/large/72f96cbajw1f6pzs8u3isj20t007cq4w.jpg" alt="QQ20160811-1@2x.png"><br>把&lt;&lt;&lt;&lt;&lt;&lt;HEAD什么的删掉，保留你想要保存的内容。<br><img src="http://ww3.sinaimg.cn/large/72f96cbajw1f6pzu6bxqmj20pk05cq3j.jpg" alt="屏幕快照 2016-08-11 18.41.19.png"><br>然后再git add ［filename］，告知后台这个冲突已经解决了。</p>
+<p>2.SourceTree解决冲突<br><img src="http://ww4.sinaimg.cn/large/72f96cbajw1f6q00dk6ojj20mq0c00v1.jpg" alt="屏幕快照 2016-08-11 18.47.22.png"><br>点击冲突文件，右键出现菜单（我的冲突解决了所以是灰色的）<br>你需要了解的：</p>
+<ul>
+<li>我的版本就是“当前分支”的版本</li>
+<li>他人版本就是“要去合并的分支”的版本</li>
+<li>合并完记得点击“标记为已解决”（还是这个菜单）</li>
+</ul>
+<p>3.使用合并扩展工具<br>请移步stackoverflow（<a href="http://stackoverflow.com/questions/161813/how-to-resolve-merge-conflicts-in-git）" target="_blank" rel="external">http://stackoverflow.com/questions/161813/how-to-resolve-merge-conflicts-in-git）</a><br>我的看法是只要能高效的解决问题，哪种方法都可以，看自己的习惯。</p>
+<p>参考资料</p>
+<blockquote>
+<p><a href="http://stackoverflow.com/questions/161813/how-to-resolve-merge-conflicts-in-git）" target="_blank" rel="external">How to resolve merge conflicts in Git?</a><br><a href="https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/merge-conflicts" target="_blank" rel="external">git-tower</a><br><a href="https://git-scm.com/book/zh/v1/Git-%E5%9F%BA%E7%A1%80-%E8%AE%B0%E5%BD%95%E6%AF%8F%E6%AC%A1%E6%9B%B4%E6%96%B0%E5%88%B0%E4%BB%93%E5%BA%93" target="_blank" rel="external">git-book</a><br><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840202368c74be33fbd884e71b570f2cc3c0d1dcf000" target="_blank" rel="external">廖雪峰教程</a></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;这也是一篇学习记录。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="现实像个o" scheme="http://pendax.me/categories/%E7%8E%B0%E5%AE%9E%E5%83%8F%E4%B8%AAo/"/>
+    
+    
+      <category term="Git" scheme="http://pendax.me/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Learn Git(1)</title>
+    <link href="http://pendax.me/2016/08/10/LearnGit(1)/"/>
+    <id>http://pendax.me/2016/08/10/LearnGit(1)/</id>
+    <published>2016-08-09T16:00:00.000Z</published>
+    <updated>2017-01-17T15:38:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>这是一篇学习记录。</p>
+</blockquote>
+<a id="more"></a>
+<h2 id="为什么要学习使用git"><a href="#为什么要学习使用git" class="headerlink" title="为什么要学习使用git"></a>为什么要学习使用git</h2><p>以前在这个位置写了好多为什么，后来有一段时间精神抑郁，删除了所有文字里面的为什么。</p>
+<!-- more --> 
+<h2 id="Git-命令"><a href="#Git-命令" class="headerlink" title="Git 命令"></a>Git 命令</h2><h3 id="获取和创建命令"><a href="#获取和创建命令" class="headerlink" title="获取和创建命令"></a>获取和创建命令</h3><ul>
+<li>获取已有的一个仓库到本地:<br>git clone [url]</li>
+<li>在当前目录下创建一个新的仓库：git init</li>
+</ul>
+<h3 id="基本的快照"><a href="#基本的快照" class="headerlink" title="基本的快照"></a>基本的快照</h3><p><img src="http://ww1.sinaimg.cn/large/006tKfTcjw1f6oqshnxopj30cq06i3yt.jpg" alt="工作区与暂存区"></p>
+<ul>
+<li><p>添加文件到缓存：git add [filename]<br>全部添加：<code>git add .</code></p>
+</li>
+<li><p>查看文件是否被添加：git status -s(不加－s为详情)</p>
+</li>
+<li>查看尚未缓存的改动：git diff<br>注：执行完git status 后跑一遍git diff是一个良好的习惯。</li>
+<li>记录快照：git commit<br>git commit -m ‘my hola mundo changes’</li>
+<li>废除修改纪录，退回到上次的状态：  git reset HEAD –file</li>
+<li><p>！！将文件从缓存区和硬盘中删除(会删除所有版本库的纪录)：git rm<br>如需保留在硬盘中：git rm –cached</p>
+<h3 id="分支与合并"><a href="#分支与合并" class="headerlink" title="分支与合并"></a>分支与合并</h3></li>
+<li><p>创建分支：git branch [branchname]</p>
+</li>
+<li>查看分支：<br>查看本地分支：git-branch<br>查看远程分支：git-branch -r<br>查看所有分支：git-branch -a</li>
+<li>删除本地分支<br>git－branch －d</li>
+<li>切换分支<br>创建并且切换：git checkout -b [new branchname]<br>只切换：git checkout ［brachname /master］</li>
+<li>合并分支<br>如果当前仓是master，要想把分支xp合并到master上面：git merge xp<br>(关于合并冲突的问题在下一篇文章记录)</li>
+<li>查看日志： git log</li>
+<li>标签<br>打个标签：git tag publish/1.0<br>查看标签： git log –decorate<br>删除标签：git tag -d v0.9（本地）<br>git push origin :refs/tags/v0.9（远程）</li>
+</ul>
+<h3 id="分享和更新项目"><a href="#分享和更新项目" class="headerlink" title="分享和更新项目"></a>分享和更新项目</h3><ul>
+<li>推送到远程分支:git push origin dev</li>
+<li>从远程分支下载合并到本地:<br>git pull origin dev</li>
+</ul>
+<h2 id="相关资料"><a href="#相关资料" class="headerlink" title="相关资料"></a>相关资料</h2><p><strong>Git参考手册<a href="http://gitref.org/zh/creating/" target="_blank" rel="external">http://gitref.org/zh/creating/</a><br>猴子都能懂的Git入门<a href="http://backlogtool.com/git-guide/cn" target="_blank" rel="external">http://backlogtool.com/git-guide/cn</a><br>Git游戏通关<a href="http://learngitbranching.js.org/" target="_blank" rel="external">http://learngitbranching.js.org/</a></strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;这是一篇学习记录。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="现实像个o" scheme="http://pendax.me/categories/%E7%8E%B0%E5%AE%9E%E5%83%8F%E4%B8%AAo/"/>
+    
+    
+      <category term="Git" scheme="http://pendax.me/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Anchors, Inputs 和 Buttons 之间如何选择</title>
+    <link href="http://pendax.me/2016/08/02/Anchors,%20Inputs%20and%20Buttons/"/>
+    <id>http://pendax.me/2016/08/02/Anchors, Inputs and Buttons/</id>
+    <published>2016-08-02T13:00:23.000Z</published>
+    <updated>2017-01-17T15:36:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>可以非常容易的使得一个元素变得像另外一个元素是我喜欢CSS的原因之一，如图所示： 第一个是anchor，第三个是input，第二个是货真价实的button。</p>
+<a id="more"></a>
+<p>如果这三个“button”点击后表现的行为是一样的，你选择用哪一个呢？在这篇文章里，我将解释anchors，inputs 和buttons的不同并且告诉你在具体情况下如何做出合适的选择。</p>
+<h1 id="语义化"><a href="#语义化" class="headerlink" title="语义化"></a>语义化</h1><p>使用哪个标签从语义化的角度考虑，使用那个更接近内容本身的意思标签。语义化的网页对于搜索引擎友好，有利于SEO。</p>
+<h1 id="Anchors"><a href="#Anchors" class="headerlink" title="Anchors"></a>Anchors</h1><p>Anchors(<code>&lt;a&gt;</code>元素）表示超文本链接（<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0ahUKEwiF3-b36qLOAhVG5YMKHUuiDYEQFggrMAE&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHyperlink&usg=AFQjCNG2zi6VvOA6zeo9vDarnyzKv240mg&sig2=SSg8EDVXKUdk2dnF1Jpghw&cad=rjt" target="_blank" rel="external">hyperlink</a>）。如果你想让你的用户移动到一个新的页面或者下载一个文件，你可以使用<code>&lt;a&gt;</code>。</p>
+<h1 id="Inputs"><a href="#Inputs" class="headerlink" title="Inputs"></a>Inputs</h1><p>input(<code>&lt;input&gt;</code>)表示可以输入一段数据字段。type属性告诉浏览器要接受那种类型的input数据。这里有5种input的type与button有关。</p>
+<ul>
+<li><code>&lt;input type=&quot;submit&quot;&gt;</code><br>这是最常见的input版的button，点击后，提交表单。</li>
+<li><code>&lt;input type=&quot;image&quot;&gt;</code><br>与上述input版的button类似，也是点击后提交表单，但是多了src的属性用来展示照片。</li>
+<li><code>&lt;input type=&quot;file&quot;&gt;</code><br>如下所示：<br><input type="file"><br><br>但是这个选择文件也是十分的丑，如果想变得漂亮一些，这里有很多hacks，如：将input显示为透明，下面放个div，或者是隐藏起来用第二个button触发选取文件等等，这里不作过多讨论。</li>
+<li><code>&lt;input type=&quot;reset“&gt;</code><br>这个可以重置整个表单，记得当初不知道这个属性，我是用的JavaScript的实现的这一功能，现在想起来都是泪。</li>
+<li><code>&lt;input type=&quot;button&quot;&gt;</code><br>这就是一个普通的button，没有默认行为，可自行添加。</li>
+</ul>
+<h1 id="Buttons"><a href="#Buttons" class="headerlink" title="Buttons"></a>Buttons</h1><p><code>&lt;button&gt;</code>就是按钮的意思，button和上面提到的input做着一样的事情，button被引入替代input更改样式会变得容易的多。按钮的标签是由它的内容决定的。如<button>博主好帅啊</button>。这就意味着你可以在button里面包含图片文字或者标头（header）。button里面也可以包括伪元素(pseudo-element)<code>::before</code>和<code>::after</code>。</p>
+<p>和input类似，button也有type属性，可设置为submit，reset或者button。默认情况下是submit。如果你把一个button放在一个表单里面，你没有设置type，点击将会提交这个表单。如果你不想发生这个行为，那就设置为type＝ “button”。</p>
+<p>button和input都有一个非常优雅的特性就是<code>disabled</code>属性，这可以非常容易关闭或者打开它们。令人伤感的是，anchors没有这个能力。</p>
+<h1 id="到底选择哪一个呢"><a href="#到底选择哪一个呢" class="headerlink" title="到底选择哪一个呢?"></a>到底选择哪一个呢?</h1><p> 当你想引导用户去另一个页面或资源，使用anchor。其他方面，input和button都是有效的。从我个人来看，我更喜欢用input提交和重置表单，button用于传统的行为。因为这样使得意图更加清晰。<br> <br></p>
+<p><strong>本文根据<a href="https://twitter.com/LandonSchropp" target="_blank" rel="external">@Landon Schropp</a>的《The Difference Between Anchors, Inputs and Buttons》<br>所译，整篇翻译带有个人理解，如有错误</strong>，请您指出。如需转载，需注英文出处:<br><a href="https://davidwalsh.name/html5-buttons" target="_blank" rel="external">https://davidwalsh.name/html5-buttons</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;可以非常容易的使得一个元素变得像另外一个元素是我喜欢CSS的原因之一，如图所示： 第一个是anchor，第三个是input，第二个是货真价实的button。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="现实像个o" scheme="http://pendax.me/categories/%E7%8E%B0%E5%AE%9E%E5%83%8F%E4%B8%AAo/"/>
+    
+    
+      <category term="HTML" scheme="http://pendax.me/tags/HTML/"/>
     
   </entry>
   

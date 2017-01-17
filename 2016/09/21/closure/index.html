@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>理解JavaScript闭包（1） - 🙂pendax</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="闭包是个什么鬼？">
+<meta property="og:type" content="article">
+<meta property="og:title" content="理解JavaScript闭包（1）">
+<meta property="og:url" content="http://pendax.me/2016/09/21/closure/index.html">
+<meta property="og:site_name" content="🙂pendax">
+<meta property="og:description" content="闭包是个什么鬼？">
+<meta property="og:updated_time" content="2017-01-17T15:40:29.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="理解JavaScript闭包（1）">
+<meta name="twitter:description" content="闭包是个什么鬼？">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link href="/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
+  <link href="/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
+      <a id="logo" class="logo" href="/"></a>
+      <nav id="main-nav">
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/about">About</a>
+        
+          <a class="main-nav-link" href="/atom.xml">Rss</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://pendax.me"></form>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+    <section id="main" class="outer"><article id="post-closure" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      理解JavaScript闭包（1）
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2016/09/21/closure/" class="article-date">
+  <time datetime="2016-09-20T16:00:00.000Z" itemprop="datePublished">2016-09-21</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/现实像个o/">现实像个o</a>
+  </div>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>闭包是个什么鬼？</p>
+<a id="more"></a>
+<h2 id="闭包的概念"><a href="#闭包的概念" class="headerlink" title="闭包的概念"></a>闭包的概念</h2><p>关于闭包的概念有下面两种说法：</p>
+<ol>
+<li>有权访问另一个函数作用域中变量的     <strong>函数</strong>。</li>
+<li><strong>函数和相关的执行环境</strong>所组成的实体。</li>
+</ol>
+<!--more-->
+<p>《JavaScript高级程序设计》（第三版）中讲到闭包是第一种说法，但是在示例代码中可以看出执行环境与闭包密不可分，第二种说法显然更加准确。在查找资料的过程中，发现了<a href="https://github.com/wintercn/blog/issues/3" target="_blank" rel="external">winter关于这个问题的考证</a>。</p>
+<h2 id="开吃之前"><a href="#开吃之前" class="headerlink" title="开吃之前"></a>开吃之前</h2><p>吃“闭包”之前，觉得还是有必要了解一下作用域链的相关知识。</p>
+<hr>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">var size = &quot;big&quot;;</div><div class="line"></div><div class="line">function changeSize()&#123;</div><div class="line">	var anotherSize = &apos;middle&apos;;</div><div class="line"></div><div class="line">	function swapSize()&#123;</div><div class="line">		var tempSize =  anotherSize;</div><div class="line">		anotherSize = size;</div><div class="line">		size = tempSize;</div><div class="line">		//可以访问size、anotherSize、tempSize </div><div class="line">	&#125;</div><div class="line">	swapSize();</div><div class="line">	//可以访问size、anotherSize</div><div class="line">&#125; </div><div class="line">changeSize(); </div><div class="line">//可以访问size</div></pre></td></tr></table></figure>
+<p>运行结果看：在changSize函数内调用其内部函数swapSize是可以执行的，若在changeSize函数外调用则无效。</p>
+<p>分析看：内部环境可以通过作用链访问外部环境，但是，外部环境不能够访问内部环境中的任何变量和参数。</p>
+<hr>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">for (var i = 0 ;i &lt; 10; i++ )&#123;</div><div class="line">   	dosomething(i);</div><div class="line">   &#125;</div><div class="line">   alert(i); //10</div></pre></td></tr></table></figure>
+<p>在JavaScript中没有块级作用域，上述例子里变量i在执行完循环的过程后，变量被添加到了当前执行环境中（此处为全局环境），所以i为10。</p>
+<h2 id="开吃"><a href="#开吃" class="headerlink" title="开吃"></a>开吃</h2><p>1.一个简单的例子</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">var globalVar;</div><div class="line">var size = &quot;big&quot;;</div><div class="line">document.write(&quot;size is &quot;+ size+&apos;&lt;br/&gt;&apos;);</div><div class="line">function changeSize()&#123;</div><div class="line">	var anotherSize = &apos;middle&apos;;</div><div class="line">	document.write(&apos;anotherSize is &apos;+ anotherSize+&quot;&lt;br/&gt;&quot;);</div><div class="line"></div><div class="line">	function swapSize()&#123;</div><div class="line">		var tempSize =  anotherSize;</div><div class="line">		anotherSize = size;</div><div class="line">		size = tempSize;</div><div class="line">		document.write(&apos;afer swap,size is &apos;+ size+&quot;&lt;br/x&gt;&quot;);</div><div class="line">		 </div><div class="line">	&#125;</div><div class="line">      globalVar = swapSize;</div><div class="line">	&#125;</div><div class="line">    </div><div class="line">   changeSize(); </div><div class="line">   globalVar();</div><div class="line">   </div><div class="line">  /*size is big</div><div class="line">   anotherSize is middle</div><div class="line">   afer swapping,size is middle  */</div></pre></td></tr></table></figure>
+<p>这里我将内部函数通过引用保存在全局变量中得以逃出魔爪。</p>
+<hr>
+<hr>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">var size = &quot;big&quot;;</div><div class="line">document.write(&quot;size is &quot;+ size+&apos;&lt;br/&gt;&apos;);</div><div class="line">function changeSize()&#123;</div><div class="line">	var anotherSize = &apos;middle&apos;;</div><div class="line">	document.write(&apos;anotherSize is &apos;+ anotherSize+&quot;&lt;br/&gt;&quot;);</div><div class="line"></div><div class="line">	function swapSize()&#123;</div><div class="line">		var tempSize =  anotherSize;</div><div class="line">		anotherSize = size;</div><div class="line">		size = tempSize;</div><div class="line">		document.write(&apos;afer swap,size is &apos;+ size+&quot;&lt;br/x&gt;&quot;);</div><div class="line">		 </div><div class="line">	&#125;</div><div class="line">      return swapSize;</div><div class="line">	&#125;</div><div class="line">    </div><div class="line">   var globalcs=changeSize(); </div><div class="line">   globalcs();</div></pre></td></tr></table></figure>
+<p>这里通过返回内部函数的引用给他爸爸，调用changesize获得的内部函数的引用可以保存在全局变量之中。</p>
+<p>2.一个有趣的例子</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">function makeAdder(x) &#123;</div><div class="line">  return function(y) &#123;</div><div class="line">    return x + y;</div><div class="line">  &#125;;</div><div class="line">&#125;</div><div class="line"></div><div class="line">var add5 = makeAdder(5);</div><div class="line">var add10 = makeAdder(10);</div><div class="line"></div><div class="line">console.log(add5(2));  // 7</div><div class="line">console.log(add10(2)); // 12</div></pre></td></tr></table></figure>
+<p>add5和add10是两个闭包，函数定义相同，环境不同。</p>
+<p>3.一个易错的例子</p>
+<p>循环当中的闭包：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">for(var i = 0; i &lt; 10; i++) &#123;</div><div class="line">    setTimeout(function() &#123;</div><div class="line">        console.log(i);  </div><div class="line">    &#125;, 1000);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>解决办法：</p>
+<ul>
+<li>创建一个匿名函数强制执行</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">for(var i = 0; i &lt; 10; i++) &#123;</div><div class="line">    (function(e) &#123;</div><div class="line">        setTimeout(function() &#123;</div><div class="line">            console.log(e);  </div><div class="line">        &#125;, 1000);</div><div class="line">    &#125;)(i);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<ul>
+<li>从匿名包装器返回一个函数</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">for(var i = 0; i &lt; 10; i++) &#123;</div><div class="line">    setTimeout((function(e) &#123;</div><div class="line">        return function() &#123;</div><div class="line">            console.log(e);</div><div class="line">        &#125;</div><div class="line">    &#125;)(i), 1000)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="参考资料："><a href="#参考资料：" class="headerlink" title="参考资料："></a>参考资料：</h2><ul>
+<li>MDN(<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Closures" target="_blank" rel="external">https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Closures</a>)</li>
+<li>JavaScript秘密花园（<a href="http://bonsaiden.github.io/JavaScript-Garden/zh/#function.closures）" target="_blank" rel="external">http://bonsaiden.github.io/JavaScript-Garden/zh/#function.closures）</a></li>
+<li>winter的考证（<a href="https://github.com/wintercn/blog/issues/3）" target="_blank" rel="external">https://github.com/wintercn/blog/issues/3）</a></li>
+<li>一篇符合认知规律的介绍（<a href="http://www.cnblogs.com/dolphinX/archive/2012/09/29/2708763.html）" target="_blank" rel="external">http://www.cnblogs.com/dolphinX/archive/2012/09/29/2708763.html）</a></li>
+<li>这篇文章汇集了有关闭包的概念、应用及其在一些编程语言中的表现形式（<a href="http://www.ibm.com/developerworks/cn/linux/l-cn-closure/index.html#note_1）**" target="_blank" rel="external">http://www.ibm.com/developerworks/cn/linux/l-cn-closure/index.html#note_1）**</a></li>
+</ul>
+
+      
+    </div>
+    
+      <div class="article-toc">
+        <h3>目录</h3>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#闭包的概念"><span class="toc-number">1.</span> <span class="toc-text">闭包的概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#开吃之前"><span class="toc-number">2.</span> <span class="toc-text">开吃之前</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#开吃"><span class="toc-number">3.</span> <span class="toc-text">开吃</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考资料："><span class="toc-number">4.</span> <span class="toc-text">参考资料：</span></a></li></ol>
+      </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/">JavaScript</a></li></ul>
+
+      </footer>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/09/24/you don't need them/" id="article-nav-newer" class="article-nav-link-wrap">
+      <div class="article-nav-title"><span>&lt;</span>&nbsp;
+        
+          你并不需要用户模型（Persona）
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/09/14/tolive/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">To Live （1994）&nbsp;<span>&gt;</span></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<div class="share_jia">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">post.share: &nbsp; </span>
+		<a class="jiathis_button_facebook"></a> 
+    <a class="jiathis_button_twitter"></a>
+    <a class="jiathis_button_plus"></a> 
+    <a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+
+
+
+
+</section>
+    <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 pendax&nbsp;
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>, theme by <a href="http://github.com/ppoffice">PPOffice</a>
+    </div>
+  </div>
+</footer>
+    
+
+<script src="/js/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+  </div>
+</body>
+</html>

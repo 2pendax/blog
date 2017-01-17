@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Failed to connect to github.com(403) - 🙂pendax</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="问题描述：无法使用git clone https://github.com/angular/angular-phonecat.git返回错误信息：Failed to connect to github.com port 443: Operation timed out">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Failed to connect to github.com(403)">
+<meta property="og:url" content="http://pendax.me/2016/09/10/Failed to connect to github.com port 443/index.html">
+<meta property="og:site_name" content="🙂pendax">
+<meta property="og:description" content="问题描述：无法使用git clone https://github.com/angular/angular-phonecat.git返回错误信息：Failed to connect to github.com port 443: Operation timed out">
+<meta property="og:updated_time" content="2016-09-10T15:22:29.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Failed to connect to github.com(403)">
+<meta name="twitter:description" content="问题描述：无法使用git clone https://github.com/angular/angular-phonecat.git返回错误信息：Failed to connect to github.com port 443: Operation timed out">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link href="/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
+  <link href="/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
+      <a id="logo" class="logo" href="/"></a>
+      <nav id="main-nav">
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/about">About</a>
+        
+          <a class="main-nav-link" href="/atom.xml">Rss</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://pendax.me"></form>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+    <section id="main" class="outer"><article id="post-Failed to connect to github.com port 443" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Failed to connect to github.com(403)
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2016/09/10/Failed to connect to github.com port 443/" class="article-date">
+  <time datetime="2016-09-10T04:10:41.000Z" itemprop="datePublished">2016-09-10</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/现实像个o/">现实像个o</a>
+  </div>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h2><p>无法使用<br>git clone <a href="https://github.com/angular/angular-phonecat.git" target="_blank" rel="external">https://github.com/angular/angular-phonecat.git</a><br>返回错误信息：<br>Failed to connect to github.com port 443: Operation timed out</p>
+<a id="more"></a>
+<h2 id="问题查询和已尝试的方法："><a href="#问题查询和已尝试的方法：" class="headerlink" title="问题查询和已尝试的方法："></a>问题查询和已尝试的方法：</h2><p>查询：</p>
+<ul>
+<li>Google错误信息</li>
+<li>去GitHub找相关Issues</li>
+</ul>
+<p>1.查看SSH是否正常<br>git clone git@github.com:Tomatoesp/LearnGit<br>返回错误信息：ssh: connect to host github.com port 22: Operation timed out</p>
+<p>通过<a href="https://help.github.com/articles/using-ssh-over-the-https-port/" target="_blank" rel="external">这个方法</a>成功<strong>设置</strong>后</p>
+<ul>
+<li>执行gitclone git@github.com:Tomatoesp/LearnGit<br>操作成功</li>
+<li>再执行gitclone <a href="https://github.com/Tomatoesp/LearnGit" target="_blank" rel="external">https://github.com/Tomatoesp/LearnGit</a><br>操作失败后返回了最初的错误信息：<br>Failed to connect to github.com port 443: Operation timed out</li>
+</ul>
+<p>2.猜测可能是代理的问题<br>猜测根据：昨天用npm转cnpm过程中，npm -install操作无效，改了npm的代理后生效。</p>
+<blockquote>
+<p>proxy=<a href="http://myproxy:8080/" target="_blank" rel="external">http://myproxy:8080/</a><br>https-proxy=<a href="http://myproxy:8080" target="_blank" rel="external">http://myproxy:8080</a></p>
+</blockquote>
+<p> 查找解决方案：</p>
+<ul>
+<li><a href="http://stackoverflow.com/questions/18356502/github-failed-to-connect-to-github-443-windows-failed-to-connect-to-github" target="_blank" rel="external">stackoverflow答案1</a>（windows，感觉和系统没关系）</li>
+<li><a href="http://stackoverflow.com/questions/783811/getting-git-to-work-with-a-proxy-server" target="_blank" rel="external">stackoverflow答案2</a>（答案1的细节补充版）</li>
+</ul>
+<p>结合上述两个答案更改代理配置：<br>git config –global http.proxy <a href="http://username:passward@proxy:port" target="_blank" rel="external">http://username:passward@proxy:port</a></p>
+<p>再次执行get clone<br>git clone <a href="https://github.com/Tomatoesp/LearnGit" target="_blank" rel="external">https://github.com/Tomatoesp/LearnGit</a></p>
+<p>返回错误信息：<br>unable to access ‘<a href="https://github.com/Tomatoesp/LearnGit/" target="_blank" rel="external">https://github.com/Tomatoesp/LearnGit/</a>‘: Failed to connect to 162.211.226.33 port 1080: <strong>Connection refused</strong><br>问题未解决</p>
+<p>3.猜测是dns的问题<br>默认dns是8.8.8.8，第二位的是8.8.8.4。猜测不成立</p>
+<p>4.其他问题</p>
+<ul>
+<li><a href="https://status.github.com/messages" target="_blank" rel="external">GitHub的问题?</a>(显然不是…)</li>
+<li>git config –global url.”<a href="https://&quot;.insteadOf" target="_blank" rel="external">https://&quot;.insteadOf</a> git://    无效</li>
+</ul>
+<h2 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h2><ul>
+<li>ping 192.30.252.128（github.com）不通，traceroute后发现没有发出去，确定了这个方向后，再次查询，找到了<a href="http://blog.csdn.net/hustsselbj/article/details/46842191" target="_blank" rel="external">这个答案</a>，顺利解决了我的问题。</li>
+</ul>
+
+      
+    </div>
+    
+      <div class="article-toc">
+        <h3>目录</h3>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#问题描述："><span class="toc-number">1.</span> <span class="toc-text">问题描述：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#问题查询和已尝试的方法："><span class="toc-number">2.</span> <span class="toc-text">问题查询和已尝试的方法：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#问题解决"><span class="toc-number">3.</span> <span class="toc-text">问题解决</span></a></li></ol>
+      </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Git/">Git</a></li></ul>
+
+      </footer>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/09/14/tolive/" id="article-nav-newer" class="article-nav-link-wrap">
+      <div class="article-nav-title"><span>&lt;</span>&nbsp;
+        
+          To Live （1994）
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/09/10/Eat-Drink-Man-Woman/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Eat Drink Man Woman&nbsp;<span>&gt;</span></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<div class="share_jia">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">post.share: &nbsp; </span>
+		<a class="jiathis_button_facebook"></a> 
+    <a class="jiathis_button_twitter"></a>
+    <a class="jiathis_button_plus"></a> 
+    <a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+
+
+
+
+</section>
+    <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 pendax&nbsp;
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>, theme by <a href="http://github.com/ppoffice">PPOffice</a>
+    </div>
+  </div>
+</footer>
+    
+
+<script src="/js/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+  </div>
+</body>
+</html>

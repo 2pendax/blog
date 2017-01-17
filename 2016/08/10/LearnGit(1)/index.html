@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Learn Git(1) - 🙂pendax</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="这是一篇学习记录。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Learn Git(1)">
+<meta property="og:url" content="http://pendax.me/2016/08/10/LearnGit(1)/index.html">
+<meta property="og:site_name" content="🙂pendax">
+<meta property="og:description" content="这是一篇学习记录。">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/006tKfTcjw1f6oqshnxopj30cq06i3yt.jpg">
+<meta property="og:updated_time" content="2017-01-17T15:38:45.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Learn Git(1)">
+<meta name="twitter:description" content="这是一篇学习记录。">
+<meta name="twitter:image" content="http://ww1.sinaimg.cn/large/006tKfTcjw1f6oqshnxopj30cq06i3yt.jpg">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link href="/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
+  <link href="/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
+      <a id="logo" class="logo" href="/"></a>
+      <nav id="main-nav">
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/about">About</a>
+        
+          <a class="main-nav-link" href="/atom.xml">Rss</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://pendax.me"></form>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+    <section id="main" class="outer"><article id="post-LearnGit(1)" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Learn Git(1)
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2016/08/10/LearnGit(1)/" class="article-date">
+  <time datetime="2016-08-09T16:00:00.000Z" itemprop="datePublished">2016-08-10</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/现实像个o/">现实像个o</a>
+  </div>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>这是一篇学习记录。</p>
+</blockquote>
+<a id="more"></a>
+<h2 id="为什么要学习使用git"><a href="#为什么要学习使用git" class="headerlink" title="为什么要学习使用git"></a>为什么要学习使用git</h2><p>以前在这个位置写了好多为什么，后来有一段时间精神抑郁，删除了所有文字里面的为什么。</p>
+<!-- more --> 
+<h2 id="Git-命令"><a href="#Git-命令" class="headerlink" title="Git 命令"></a>Git 命令</h2><h3 id="获取和创建命令"><a href="#获取和创建命令" class="headerlink" title="获取和创建命令"></a>获取和创建命令</h3><ul>
+<li>获取已有的一个仓库到本地:<br>git clone [url]</li>
+<li>在当前目录下创建一个新的仓库：git init</li>
+</ul>
+<h3 id="基本的快照"><a href="#基本的快照" class="headerlink" title="基本的快照"></a>基本的快照</h3><p><img src="http://ww1.sinaimg.cn/large/006tKfTcjw1f6oqshnxopj30cq06i3yt.jpg" alt="工作区与暂存区"></p>
+<ul>
+<li><p>添加文件到缓存：git add [filename]<br>全部添加：<code>git add .</code></p>
+</li>
+<li><p>查看文件是否被添加：git status -s(不加－s为详情)</p>
+</li>
+<li>查看尚未缓存的改动：git diff<br>注：执行完git status 后跑一遍git diff是一个良好的习惯。</li>
+<li>记录快照：git commit<br>git commit -m ‘my hola mundo changes’</li>
+<li>废除修改纪录，退回到上次的状态：  git reset HEAD –file</li>
+<li><p>！！将文件从缓存区和硬盘中删除(会删除所有版本库的纪录)：git rm<br>如需保留在硬盘中：git rm –cached</p>
+<h3 id="分支与合并"><a href="#分支与合并" class="headerlink" title="分支与合并"></a>分支与合并</h3></li>
+<li><p>创建分支：git branch [branchname]</p>
+</li>
+<li>查看分支：<br>查看本地分支：git-branch<br>查看远程分支：git-branch -r<br>查看所有分支：git-branch -a</li>
+<li>删除本地分支<br>git－branch －d</li>
+<li>切换分支<br>创建并且切换：git checkout -b [new branchname]<br>只切换：git checkout ［brachname /master］</li>
+<li>合并分支<br>如果当前仓是master，要想把分支xp合并到master上面：git merge xp<br>(关于合并冲突的问题在下一篇文章记录)</li>
+<li>查看日志： git log</li>
+<li>标签<br>打个标签：git tag publish/1.0<br>查看标签： git log –decorate<br>删除标签：git tag -d v0.9（本地）<br>git push origin :refs/tags/v0.9（远程）</li>
+</ul>
+<h3 id="分享和更新项目"><a href="#分享和更新项目" class="headerlink" title="分享和更新项目"></a>分享和更新项目</h3><ul>
+<li>推送到远程分支:git push origin dev</li>
+<li>从远程分支下载合并到本地:<br>git pull origin dev</li>
+</ul>
+<h2 id="相关资料"><a href="#相关资料" class="headerlink" title="相关资料"></a>相关资料</h2><p><strong>Git参考手册<a href="http://gitref.org/zh/creating/" target="_blank" rel="external">http://gitref.org/zh/creating/</a><br>猴子都能懂的Git入门<a href="http://backlogtool.com/git-guide/cn" target="_blank" rel="external">http://backlogtool.com/git-guide/cn</a><br>Git游戏通关<a href="http://learngitbranching.js.org/" target="_blank" rel="external">http://learngitbranching.js.org/</a></strong></p>
+
+      
+    </div>
+    
+      <div class="article-toc">
+        <h3>目录</h3>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#为什么要学习使用git"><span class="toc-number">1.</span> <span class="toc-text">为什么要学习使用git</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Git-命令"><span class="toc-number">2.</span> <span class="toc-text">Git 命令</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#获取和创建命令"><span class="toc-number">2.1.</span> <span class="toc-text">获取和创建命令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#基本的快照"><span class="toc-number">2.2.</span> <span class="toc-text">基本的快照</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#分支与合并"><span class="toc-number">2.3.</span> <span class="toc-text">分支与合并</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#分享和更新项目"><span class="toc-number">2.4.</span> <span class="toc-text">分享和更新项目</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#相关资料"><span class="toc-number">3.</span> <span class="toc-text">相关资料</span></a></li></ol>
+      </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Git/">Git</a></li></ul>
+
+      </footer>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/08/11/mergeconfilct/" id="article-nav-newer" class="article-nav-link-wrap">
+      <div class="article-nav-title"><span>&lt;</span>&nbsp;
+        
+          Learn Git(2)-Merge Conflict
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/08/02/Anchors, Inputs and Buttons/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Anchors, Inputs 和 Buttons 之间如何选择&nbsp;<span>&gt;</span></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<div class="share_jia">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">post.share: &nbsp; </span>
+		<a class="jiathis_button_facebook"></a> 
+    <a class="jiathis_button_twitter"></a>
+    <a class="jiathis_button_plus"></a> 
+    <a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+
+
+
+
+</section>
+    <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 pendax&nbsp;
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>, theme by <a href="http://github.com/ppoffice">PPOffice</a>
+    </div>
+  </div>
+</footer>
+    
+
+<script src="/js/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+  </div>
+</body>
+</html>

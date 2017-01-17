@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Anchors, Inputs 和 Buttons 之间如何选择 - 🙂pendax</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="可以非常容易的使得一个元素变得像另外一个元素是我喜欢CSS的原因之一，如图所示： 第一个是anchor，第三个是input，第二个是货真价实的button。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Anchors, Inputs 和 Buttons 之间如何选择">
+<meta property="og:url" content="http://pendax.me/2016/08/02/Anchors, Inputs and Buttons/index.html">
+<meta property="og:site_name" content="🙂pendax">
+<meta property="og:description" content="可以非常容易的使得一个元素变得像另外一个元素是我喜欢CSS的原因之一，如图所示： 第一个是anchor，第三个是input，第二个是货真价实的button。">
+<meta property="og:updated_time" content="2017-01-17T15:36:34.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Anchors, Inputs 和 Buttons 之间如何选择">
+<meta name="twitter:description" content="可以非常容易的使得一个元素变得像另外一个元素是我喜欢CSS的原因之一，如图所示： 第一个是anchor，第三个是input，第二个是货真价实的button。">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link href="/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
+  <link href="/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
+      <a id="logo" class="logo" href="/"></a>
+      <nav id="main-nav">
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/about">About</a>
+        
+          <a class="main-nav-link" href="/atom.xml">Rss</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://pendax.me"></form>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+    <section id="main" class="outer"><article id="post-Anchors, Inputs and Buttons" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Anchors, Inputs 和 Buttons 之间如何选择
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2016/08/02/Anchors, Inputs and Buttons/" class="article-date">
+  <time datetime="2016-08-02T13:00:23.000Z" itemprop="datePublished">2016-08-02</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/现实像个o/">现实像个o</a>
+  </div>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>可以非常容易的使得一个元素变得像另外一个元素是我喜欢CSS的原因之一，如图所示： 第一个是anchor，第三个是input，第二个是货真价实的button。</p>
+<a id="more"></a>
+<p>如果这三个“button”点击后表现的行为是一样的，你选择用哪一个呢？在这篇文章里，我将解释anchors，inputs 和buttons的不同并且告诉你在具体情况下如何做出合适的选择。</p>
+<h1 id="语义化"><a href="#语义化" class="headerlink" title="语义化"></a>语义化</h1><p>使用哪个标签从语义化的角度考虑，使用那个更接近内容本身的意思标签。语义化的网页对于搜索引擎友好，有利于SEO。</p>
+<h1 id="Anchors"><a href="#Anchors" class="headerlink" title="Anchors"></a>Anchors</h1><p>Anchors(<code>&lt;a&gt;</code>元素）表示超文本链接（<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0ahUKEwiF3-b36qLOAhVG5YMKHUuiDYEQFggrMAE&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHyperlink&usg=AFQjCNG2zi6VvOA6zeo9vDarnyzKv240mg&sig2=SSg8EDVXKUdk2dnF1Jpghw&cad=rjt" target="_blank" rel="external">hyperlink</a>）。如果你想让你的用户移动到一个新的页面或者下载一个文件，你可以使用<code>&lt;a&gt;</code>。</p>
+<h1 id="Inputs"><a href="#Inputs" class="headerlink" title="Inputs"></a>Inputs</h1><p>input(<code>&lt;input&gt;</code>)表示可以输入一段数据字段。type属性告诉浏览器要接受那种类型的input数据。这里有5种input的type与button有关。</p>
+<ul>
+<li><code>&lt;input type=&quot;submit&quot;&gt;</code><br>这是最常见的input版的button，点击后，提交表单。</li>
+<li><code>&lt;input type=&quot;image&quot;&gt;</code><br>与上述input版的button类似，也是点击后提交表单，但是多了src的属性用来展示照片。</li>
+<li><code>&lt;input type=&quot;file&quot;&gt;</code><br>如下所示：<br><input type="file"><br><br>但是这个选择文件也是十分的丑，如果想变得漂亮一些，这里有很多hacks，如：将input显示为透明，下面放个div，或者是隐藏起来用第二个button触发选取文件等等，这里不作过多讨论。</li>
+<li><code>&lt;input type=&quot;reset“&gt;</code><br>这个可以重置整个表单，记得当初不知道这个属性，我是用的JavaScript的实现的这一功能，现在想起来都是泪。</li>
+<li><code>&lt;input type=&quot;button&quot;&gt;</code><br>这就是一个普通的button，没有默认行为，可自行添加。</li>
+</ul>
+<h1 id="Buttons"><a href="#Buttons" class="headerlink" title="Buttons"></a>Buttons</h1><p><code>&lt;button&gt;</code>就是按钮的意思，button和上面提到的input做着一样的事情，button被引入替代input更改样式会变得容易的多。按钮的标签是由它的内容决定的。如<button>博主好帅啊</button>。这就意味着你可以在button里面包含图片文字或者标头（header）。button里面也可以包括伪元素(pseudo-element)<code>::before</code>和<code>::after</code>。</p>
+<p>和input类似，button也有type属性，可设置为submit，reset或者button。默认情况下是submit。如果你把一个button放在一个表单里面，你没有设置type，点击将会提交这个表单。如果你不想发生这个行为，那就设置为type＝ “button”。</p>
+<p>button和input都有一个非常优雅的特性就是<code>disabled</code>属性，这可以非常容易关闭或者打开它们。令人伤感的是，anchors没有这个能力。</p>
+<h1 id="到底选择哪一个呢"><a href="#到底选择哪一个呢" class="headerlink" title="到底选择哪一个呢?"></a>到底选择哪一个呢?</h1><p> 当你想引导用户去另一个页面或资源，使用anchor。其他方面，input和button都是有效的。从我个人来看，我更喜欢用input提交和重置表单，button用于传统的行为。因为这样使得意图更加清晰。<br> <br></p>
+<p><strong>本文根据<a href="https://twitter.com/LandonSchropp" target="_blank" rel="external">@Landon Schropp</a>的《The Difference Between Anchors, Inputs and Buttons》<br>所译，整篇翻译带有个人理解，如有错误</strong>，请您指出。如需转载，需注英文出处:<br><a href="https://davidwalsh.name/html5-buttons" target="_blank" rel="external">https://davidwalsh.name/html5-buttons</a></p>
+
+      
+    </div>
+    
+      <div class="article-toc">
+        <h3>目录</h3>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#语义化"><span class="toc-number">1.</span> <span class="toc-text">语义化</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Anchors"><span class="toc-number">2.</span> <span class="toc-text">Anchors</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Inputs"><span class="toc-number">3.</span> <span class="toc-text">Inputs</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Buttons"><span class="toc-number">4.</span> <span class="toc-text">Buttons</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#到底选择哪一个呢"><span class="toc-number">5.</span> <span class="toc-text">到底选择哪一个呢?</span></a></li></ol>
+      </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HTML/">HTML</a></li></ul>
+
+      </footer>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/08/10/LearnGit(1)/" id="article-nav-newer" class="article-nav-link-wrap">
+      <div class="article-nav-title"><span>&lt;</span>&nbsp;
+        
+          Learn Git(1)
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+
+<div class="share_jia">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">post.share: &nbsp; </span>
+		<a class="jiathis_button_facebook"></a> 
+    <a class="jiathis_button_twitter"></a>
+    <a class="jiathis_button_plus"></a> 
+    <a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+
+
+
+
+</section>
+    <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 pendax&nbsp;
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>, theme by <a href="http://github.com/ppoffice">PPOffice</a>
+    </div>
+  </div>
+</footer>
+    
+
+<script src="/js/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+  </div>
+</body>
+</html>
