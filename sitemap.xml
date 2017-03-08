@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://pendax.me/2016/08/11/mergeconfilct/</loc>
+    
+    <lastmod>2017-03-08T09:47:55.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://pendax.me/2016/10/07/chongqing/</loc>
     
     <lastmod>2017-02-16T03:32:51.000Z</lastmod>
@@ -61,13 +68,6 @@
     <loc>http://pendax.me/2016/08/14/rebase/</loc>
     
     <lastmod>2016-09-24T08:24:04.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://pendax.me/2016/08/11/mergeconfilct/</loc>
-    
-    <lastmod>2016-09-24T08:23:50.000Z</lastmod>
     
   </url>
   

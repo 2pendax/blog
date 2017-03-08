@@ -13,12 +13,12 @@
 <meta property="og:description" content="这也是一篇学习记录。">
 <meta property="og:image" content="http://ww2.sinaimg.cn/large/72f96cbajw1f6pzif9y5ej20e002eaaa.jpg">
 <meta property="og:image" content="http://ww1.sinaimg.cn/large/72f96cbajw1f6pzjcjwapj20eu01wt8y.jpg">
-<meta property="og:image" content="http://ww1.sinaimg.cn/large/72f96cbajw1f6pzh324ogj20sc0icjwz.jpg">
+<meta property="og:image" content="https://ww1.sinaimg.cn/large/006tNc79ly1fdfkrw2lmgj30b407an0h.jpg">
 <meta property="og:image" content="http://ww2.sinaimg.cn/large/72f96cbajw1f6pzpaitdhj20fk0hgacc.jpg">
 <meta property="og:image" content="http://ww4.sinaimg.cn/large/72f96cbajw1f6pzs8u3isj20t007cq4w.jpg">
 <meta property="og:image" content="http://ww3.sinaimg.cn/large/72f96cbajw1f6pzu6bxqmj20pk05cq3j.jpg">
 <meta property="og:image" content="http://ww4.sinaimg.cn/large/72f96cbajw1f6q00dk6ojj20mq0c00v1.jpg">
-<meta property="og:updated_time" content="2016-09-24T08:23:50.000Z">
+<meta property="og:updated_time" content="2017-03-08T09:47:55.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Learn Git(2)-Merge Conflict">
 <meta name="twitter:description" content="这也是一篇学习记录。">
@@ -97,7 +97,7 @@
 <li>其他（再遇到回来补充）</li>
 </ul>
 <!-- more -->
-<h2 id="模拟一个冲突"><a href="#模拟一个冲突" class="headerlink" title="模拟一个冲突"></a>模拟一个冲突</h2><p>第一次在master上修改：<br><img src="http://ww2.sinaimg.cn/large/72f96cbajw1f6pzif9y5ej20e002eaaa.jpg" alt="屏幕快照 2016-08-11 18.19.30.png"><br>第二次转换到分支dev上修改：<br><img src="http://ww1.sinaimg.cn/large/72f96cbajw1f6pzjcjwapj20eu01wt8y.jpg" alt="屏幕快照 2016-08-11 18.31.01.png"><br>然后将dev合并到master上面<br><img src="http://ww1.sinaimg.cn/large/72f96cbajw1f6pzh324ogj20sc0icjwz.jpg" alt="18:28:55.jpg"></p>
+<h2 id="模拟一个冲突"><a href="#模拟一个冲突" class="headerlink" title="模拟一个冲突"></a>模拟一个冲突</h2><p>第一次在master上修改：<br><img src="http://ww2.sinaimg.cn/large/72f96cbajw1f6pzif9y5ej20e002eaaa.jpg" alt="屏幕快照 2016-08-11 18.19.30.png"><br>第二次转换到分支dev上修改：<br><img src="http://ww1.sinaimg.cn/large/72f96cbajw1f6pzjcjwapj20eu01wt8y.jpg" alt="屏幕快照 2016-08-11 18.31.01.png"><br>然后将dev合并到master上面<br><img src="https://ww1.sinaimg.cn/large/006tNc79ly1fdfkrw2lmgj30b407an0h.jpg" alt="18:28:55.jpg"></p>
 <h2 id="如何解决合并冲突"><a href="#如何解决合并冲突" class="headerlink" title="如何解决合并冲突"></a>如何解决合并冲突</h2><p>1.打开文件清理冲突<br>打开你的文件快速查找“&lt;&lt;&lt;&lt;&lt;&lt;&lt;”<br><img src="http://ww2.sinaimg.cn/large/72f96cbajw1f6pzpaitdhj20fk0hgacc.jpg" alt="屏幕快照 2016-08-11 18.36.09.png"><br>看一下分别是什么<br><img src="http://ww4.sinaimg.cn/large/72f96cbajw1f6pzs8u3isj20t007cq4w.jpg" alt="QQ20160811-1@2x.png"><br>把&lt;&lt;&lt;&lt;&lt;&lt;HEAD什么的删掉，保留你想要保存的内容。<br><img src="http://ww3.sinaimg.cn/large/72f96cbajw1f6pzu6bxqmj20pk05cq3j.jpg" alt="屏幕快照 2016-08-11 18.41.19.png"><br>然后再git add ［filename］，告知后台这个冲突已经解决了。</p>
 <p>2.SourceTree解决冲突<br><img src="http://ww4.sinaimg.cn/large/72f96cbajw1f6q00dk6ojj20mq0c00v1.jpg" alt="屏幕快照 2016-08-11 18.47.22.png"><br>点击冲突文件，右键出现菜单（我的冲突解决了所以是灰色的）<br>你需要了解的：</p>
 <ul>
