@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://pendax.me/2017/03/08/OS%20X%20install%20NodeBB/</loc>
+    
+    <lastmod>2017-03-08T11:46:15.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://pendax.me/2016/09/21/closure/</loc>
     
     <lastmod>2017-03-08T10:22:22.000Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://pendax.me/2016/08/11/mergeconfilct/</loc>
     
     <lastmod>2017-03-08T09:47:55.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://pendax.me/2016/10/07/chongqing/</loc>
-    
-    <lastmod>2017-02-16T03:32:51.000Z</lastmod>
     
   </url>
   
@@ -47,13 +47,6 @@
     <loc>http://pendax.me/2016/08/02/Anchors,%20Inputs%20and%20Buttons/</loc>
     
     <lastmod>2017-01-17T15:36:34.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://pendax.me/2016/09/24/you%20don't%20need%20them/</loc>
-    
-    <lastmod>2017-01-17T15:10:41.000Z</lastmod>
     
   </url>
   

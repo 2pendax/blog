@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>OS X 下安装 NodeBB - pendax</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="安装 MongoDB 时遇到的问题1brew install mongodb
+出现下面的问题
+12345678bogon:NodeBB alan$ mongoMongoDB shell version v3.4.2connecting to: mongodb://127.0.0.1:270172017-03-08T17:01:38.377+0800 W NETWORK  [thread1] Fai">
+<meta property="og:type" content="article">
+<meta property="og:title" content="OS X 下安装 NodeBB">
+<meta property="og:url" content="http://pendax.me/2017/03/08/OS X install NodeBB/index.html">
+<meta property="og:site_name" content="pendax">
+<meta property="og:description" content="安装 MongoDB 时遇到的问题1brew install mongodb
+出现下面的问题
+12345678bogon:NodeBB alan$ mongoMongoDB shell version v3.4.2connecting to: mongodb://127.0.0.1:270172017-03-08T17:01:38.377+0800 W NETWORK  [thread1] Fai">
+<meta property="og:updated_time" content="2017-03-08T11:46:15.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="OS X 下安装 NodeBB">
+<meta name="twitter:description" content="安装 MongoDB 时遇到的问题1brew install mongodb
+出现下面的问题
+12345678bogon:NodeBB alan$ mongoMongoDB shell version v3.4.2connecting to: mongodb://127.0.0.1:270172017-03-08T17:01:38.377+0800 W NETWORK  [thread1] Fai">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link href="/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
+  <link href="/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
+      <a id="logo" class="logo" href="/"></a>
+      <nav id="main-nav">
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/about">About</a>
+        
+          <a class="main-nav-link" href="/atom.xml">Rss</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://pendax.me"></form>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+    <section id="main" class="outer"><article id="post-OS X install NodeBB" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      OS X 下安装 NodeBB
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2017/03/08/OS X install NodeBB/" class="article-date">
+  <time datetime="2017-03-07T16:00:00.000Z" itemprop="datePublished">2017-03-08</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/现实像个o/">现实像个o</a>
+  </div>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="安装-MongoDB-时遇到的问题"><a href="#安装-MongoDB-时遇到的问题" class="headerlink" title="安装 MongoDB 时遇到的问题"></a>安装 MongoDB 时遇到的问题</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install mongodb</div></pre></td></tr></table></figure>
+<p>出现下面的问题</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">bogon:NodeBB alan$ mongo</div><div class="line">MongoDB shell version v3.4.2</div><div class="line">connecting to: mongodb://127.0.0.1:27017</div><div class="line">2017-03-08T17:01:38.377+0800 W NETWORK  [thread1] Failed to connect to 127.0.0.1:27017, in(checking socket for error after poll), reason: Connection refused</div><div class="line">2017-03-08T17:01:38.377+0800 E QUERY    [thread1] Error: couldn&apos;t connect to server 127.0.0.1:27017, connection attempt failed :</div><div class="line">connect@src/mongo/shell/mongo.js:237:13</div><div class="line">@(connect):1:6</div><div class="line">exception: connect failed</div></pre></td></tr></table></figure>
+<p>错误原因：MongoDB 还没有运行。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew services start mongodb</div></pre></td></tr></table></figure>
+<h2 id="运行-NodeBB"><a href="#运行-NodeBB" class="headerlink" title="运行 NodeBB"></a>运行 NodeBB</h2><p>按照文档中的步骤去做（<a href="https://docs.nodebb.org/en/latest/installing/os/osx-mavericks.html" target="_blank" rel="external">https://docs.nodebb.org/en/latest/installing/os/osx-mavericks.html</a> ）， 全部选择默认就好了。</p>
+
+      
+    </div>
+    
+      <div class="article-toc">
+        <h3>目录</h3>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装-MongoDB-时遇到的问题"><span class="toc-number">1.</span> <span class="toc-text">安装 MongoDB 时遇到的问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#运行-NodeBB"><span class="toc-number">2.</span> <span class="toc-text">运行 NodeBB</span></a></li></ol>
+      </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/NodeBB/">NodeBB</a></li></ul>
+
+      </footer>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2017/02/07/fanfou_oneyear/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">饭否是一种怎样的存在&nbsp;<span>&gt;</span></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+<div class="share_addthis">
+  <div class="sharing addthis_toolbox share">
+    <a class="addthis_button_facebook_like"></a>
+    <a class="addthis_button_tweet"></a>
+    <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+    <a class="addthis_counter addthis_pill_style"></a>
+  </div>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-560c64c35486b3d4" async="async"></script>
+</div>
+
+
+
+
+
+</section>
+    <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 pendax&nbsp;
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>, theme by <a href="http://github.com/ppoffice">PPOffice</a>
+    </div>
+  </div>
+</footer>
+    
+
+<script src="/js/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+  </div>
+</body>
+</html>
