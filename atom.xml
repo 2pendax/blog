@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://pendax.me/"/>
-  <updated>2018-01-06T15:45:08.000Z</updated>
+  <updated>2018-01-06T15:46:55.000Z</updated>
   <id>http://pendax.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://pendax.me/2018/01/06/%E4%BD%BF%E7%94%A8%20homebrew%20%E6%9B%B4%E6%96%B0%20Mac%20PHP%20%E7%89%88%E6%9C%AC/"/>
     <id>http://pendax.me/2018/01/06/使用 homebrew 更新 Mac PHP 版本/</id>
     <published>2018-01-05T16:00:00.000Z</published>
-    <updated>2018-01-06T15:45:08.000Z</updated>
+    <updated>2018-01-06T15:46:55.000Z</updated>
     
     <content type="html"><![CDATA[<h5 id="1-Install-brew-–-gt-http-brew-sh"><a href="#1-Install-brew-–-gt-http-brew-sh" class="headerlink" title="# 1. Install brew  –&gt; http://brew.sh/"></a># 1. Install brew  –&gt; <a href="http://brew.sh/" target="_blank" rel="external">http://brew.sh/</a></h5><h5 id="2-run-the-following-commands-in-your-Terminal"><a href="#2-run-the-following-commands-in-your-Terminal" class="headerlink" title="# 2. run the following commands in your Terminal"></a># 2. run the following commands in your Terminal</h5><p>brew tap homebrew/dupes</p>
 <p>brew tap homebrew/versions</p>
@@ -29,6 +29,7 @@
 <p>brew install –with-homebrew-curl –with-apache php71</p>
 <p>brew install php71-mcrypt php71-imagick</p>
 <h5 id="3-Follow-these-instructions-to-make-Apache-and-php-cli-use-the-newer-php-executable-and-make-the-change-persist-after-reboot"><a href="#3-Follow-these-instructions-to-make-Apache-and-php-cli-use-the-newer-php-executable-and-make-the-change-persist-after-reboot" class="headerlink" title="#3. Follow these instructions to make Apache and php-cli use the newer php executable and make the change persist after reboot."></a>#3. Follow these instructions to make Apache and php-cli use the newer php executable and make the change persist after reboot.</h5><p>brew info php71</p>
+<a id="more"></a> 
 <h5 id="restart-apache"><a href="#restart-apache" class="headerlink" title="# restart apache"></a># restart apache</h5><p>sudo apachectl restart</p>
 <h5 id="apply-PATH-changes-without-relogging"><a href="#apply-PATH-changes-without-relogging" class="headerlink" title="# apply PATH changes without relogging"></a># apply PATH changes without relogging</h5><p>source ~/.profile</p>
 <p>Gist：<a href="https://gist.github.com/pixeline/51c43c787f51b018d484597f30be3d2b" target="_blank" rel="external">https://gist.github.com/pixeline/51c43c787f51b018d484597f30be3d2b</a></p>
@@ -36,7 +37,13 @@
     
     <summary type="html">
     
-      &lt;h5 id=&quot;1-Install-brew-–-gt-http-brew-sh&quot;&gt;&lt;a href=&quot;#1-Install-brew-–-gt-http-brew-sh&quot; class=&quot;headerlink&quot; title=&quot;# 1. Install brew  –&amp;gt; htt
+      &lt;h5 id=&quot;1-Install-brew-–-gt-http-brew-sh&quot;&gt;&lt;a href=&quot;#1-Install-brew-–-gt-http-brew-sh&quot; class=&quot;headerlink&quot; title=&quot;# 1. Install brew  –&amp;gt; http://brew.sh/&quot;&gt;&lt;/a&gt;# 1. Install brew  –&amp;gt; &lt;a href=&quot;http://brew.sh/&quot;&gt;http://brew.sh/&lt;/a&gt;&lt;/h5&gt;&lt;h5 id=&quot;2-run-the-following-commands-in-your-Terminal&quot;&gt;&lt;a href=&quot;#2-run-the-following-commands-in-your-Terminal&quot; class=&quot;headerlink&quot; title=&quot;# 2. run the following commands in your Terminal&quot;&gt;&lt;/a&gt;# 2. run the following commands in your Terminal&lt;/h5&gt;&lt;p&gt;brew tap homebrew/dupes&lt;/p&gt;
+&lt;p&gt;brew tap homebrew/versions&lt;/p&gt;
+&lt;p&gt;brew tap homebrew/homebrew-php&lt;/p&gt;
+&lt;p&gt;brew install –with-openssl curl&lt;/p&gt;
+&lt;p&gt;brew install –with-homebrew-curl –with-apache php71&lt;/p&gt;
+&lt;p&gt;brew install php71-mcrypt php71-imagick&lt;/p&gt;
+&lt;h5 id=&quot;3-Follow-these-instructions-to-make-Apache-and-php-cli-use-the-newer-php-executable-and-make-the-change-persist-after-reboot&quot;&gt;&lt;a href=&quot;#3-Follow-these-instructions-to-make-Apache-and-php-cli-use-the-newer-php-executable-and-make-the-change-persist-after-reboot&quot; class=&quot;headerlink&quot; title=&quot;#3. Follow these instructions to make Apache and php-cli use the newer php executable and make the change persist after reboot.&quot;&gt;&lt;/a&gt;#3. Follow these instructions to make Apache and php-cli use the newer php executable and make the change persist after reboot.&lt;/h5&gt;&lt;p&gt;brew info php71&lt;/p&gt;
     
     </summary>
     
@@ -431,41 +438,6 @@
   </entry>
   
   <entry>
-    <title>Eat Drink Man Woman</title>
-    <link href="http://pendax.me/2016/09/10/Eat-Drink-Man-Woman/"/>
-    <id>http://pendax.me/2016/09/10/Eat-Drink-Man-Woman/</id>
-    <published>2016-09-10T04:10:41.000Z</published>
-    <updated>2016-10-24T15:47:19.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>“饮食男女，人之大欲存焉。”  </p>
-</blockquote>
-<p>昨晚又把李安的《饮食男女》看了一遍，第一次看是高中，还记得那晚写了一套满是红叉叉的理综试题。总觉得这片子就是生活，生活的片段也许是这片子的电视剧版吧。</p>
-<a id="more"></a>
-<p>“食、色，性也。”人终究还是逃不出这几样，如果强行要加或许还有“梦想”，“情怀”，“抱负”，但当谈到这些岂不是又回到了“形而上”的思考？</p>
-<p>整部片子的节奏让我感觉到十分的舒服，可能是剧中穿插的一些在厨房做饭的镜头安抚了我躁动的心。每次看到老朱在厨房忙碌时的场景。我就会想起我的爷爷，爷爷总是能做出各种我意想不到的美味。记起小时候住在爷爷家里，早晨的那碗面真的令人垂涎三尺。面、蛋、汤既能各自独成一菜又可相互融合，入口鲜香，入胃舒畅，回味无穷。现在每次在学校吃面，都在心里吐槽这面这汤这蛋，总归是这食物里面没有感情和爱的。</p>
-<p>“家庭聚餐”更像是这部片子的一条暗线，主人公们总是在饭桌上宣布有关自己的消息，然后整个的片子的剧情开始进一步的发展。我真心的觉得，一家人能够一起吃饭真是令人羡慕的一件事。“团圆”这个词在我的印象里就是一家人都坐在饭桌上，举起酒杯的那一刻，或许才叫团圆，但除了过年的几天外觉得这样的日子真的越来越少。记忆中爸爸不是在公司就是在外地的公司，生活中大多数的饭都是和妈妈在一起吃的，所以成长过程中的大多数喜悦和苦恼也是在饭桌上讲给了妈妈。但还是超级感谢我爸，他总是用行动告诉我怎样做一个敢于担当的男人。</p>
-<p>很多人都说这部片子的结局是出人意料和戏剧化的，老朱的晚年伴侣并不是梁伯母，而是她的女儿。除了宣布那一秒的些许惊讶，我似乎瞬间就理解了，这种有所突破性的结局是我喜欢的，也许这更符合这部片子想要表达的东西。当老朱一辈子最好的朋友离开了人间，当女儿们都找到了归属离开了他，当一个没有味觉的顶级大厨到了暮年…如果不选择重新开始，还能做出怎样的选择呢？</p>
-<p>最后的最后，老朱恢复了味觉，他和家倩之间那堵墙瓦解，空气中终于可以自由的传递爱和关心，或许这个时候的食物才是真正有感情、有味道的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;“饮食男女，人之大欲存焉。”  &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;昨晚又把李安的《饮食男女》看了一遍，第一次看是高中，还记得那晚写了一套满是红叉叉的理综试题。总觉得这片子就是生活，生活的片段也许是这片子的电视剧版吧。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="精神像个0" scheme="http://pendax.me/categories/%E7%B2%BE%E7%A5%9E%E5%83%8F%E4%B8%AA0/"/>
-    
-    
-      <category term="Movie" scheme="http://pendax.me/tags/Movie/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Failed to connect to github.com(403)</title>
     <link href="http://pendax.me/2016/09/10/Failed%20to%20connect%20to%20github.com%20port%20443/"/>
     <id>http://pendax.me/2016/09/10/Failed to connect to github.com port 443/</id>
@@ -518,6 +490,41 @@
     
     
       <category term="Git" scheme="http://pendax.me/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Eat Drink Man Woman</title>
+    <link href="http://pendax.me/2016/09/10/Eat-Drink-Man-Woman/"/>
+    <id>http://pendax.me/2016/09/10/Eat-Drink-Man-Woman/</id>
+    <published>2016-09-10T04:10:41.000Z</published>
+    <updated>2016-10-24T15:47:19.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>“饮食男女，人之大欲存焉。”  </p>
+</blockquote>
+<p>昨晚又把李安的《饮食男女》看了一遍，第一次看是高中，还记得那晚写了一套满是红叉叉的理综试题。总觉得这片子就是生活，生活的片段也许是这片子的电视剧版吧。</p>
+<a id="more"></a>
+<p>“食、色，性也。”人终究还是逃不出这几样，如果强行要加或许还有“梦想”，“情怀”，“抱负”，但当谈到这些岂不是又回到了“形而上”的思考？</p>
+<p>整部片子的节奏让我感觉到十分的舒服，可能是剧中穿插的一些在厨房做饭的镜头安抚了我躁动的心。每次看到老朱在厨房忙碌时的场景。我就会想起我的爷爷，爷爷总是能做出各种我意想不到的美味。记起小时候住在爷爷家里，早晨的那碗面真的令人垂涎三尺。面、蛋、汤既能各自独成一菜又可相互融合，入口鲜香，入胃舒畅，回味无穷。现在每次在学校吃面，都在心里吐槽这面这汤这蛋，总归是这食物里面没有感情和爱的。</p>
+<p>“家庭聚餐”更像是这部片子的一条暗线，主人公们总是在饭桌上宣布有关自己的消息，然后整个的片子的剧情开始进一步的发展。我真心的觉得，一家人能够一起吃饭真是令人羡慕的一件事。“团圆”这个词在我的印象里就是一家人都坐在饭桌上，举起酒杯的那一刻，或许才叫团圆，但除了过年的几天外觉得这样的日子真的越来越少。记忆中爸爸不是在公司就是在外地的公司，生活中大多数的饭都是和妈妈在一起吃的，所以成长过程中的大多数喜悦和苦恼也是在饭桌上讲给了妈妈。但还是超级感谢我爸，他总是用行动告诉我怎样做一个敢于担当的男人。</p>
+<p>很多人都说这部片子的结局是出人意料和戏剧化的，老朱的晚年伴侣并不是梁伯母，而是她的女儿。除了宣布那一秒的些许惊讶，我似乎瞬间就理解了，这种有所突破性的结局是我喜欢的，也许这更符合这部片子想要表达的东西。当老朱一辈子最好的朋友离开了人间，当女儿们都找到了归属离开了他，当一个没有味觉的顶级大厨到了暮年…如果不选择重新开始，还能做出怎样的选择呢？</p>
+<p>最后的最后，老朱恢复了味觉，他和家倩之间那堵墙瓦解，空气中终于可以自由的传递爱和关心，或许这个时候的食物才是真正有感情、有味道的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;“饮食男女，人之大欲存焉。”  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;昨晚又把李安的《饮食男女》看了一遍，第一次看是高中，还记得那晚写了一套满是红叉叉的理综试题。总觉得这片子就是生活，生活的片段也许是这片子的电视剧版吧。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="精神像个0" scheme="http://pendax.me/categories/%E7%B2%BE%E7%A5%9E%E5%83%8F%E4%B8%AA0/"/>
+    
+    
+      <category term="Movie" scheme="http://pendax.me/tags/Movie/"/>
     
   </entry>
   
