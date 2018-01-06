@@ -47,6 +47,66 @@
   </div>
 </header>
     <section id="main" class="outer">
+      <article id="post-使用 homebrew 更新 Mac PHP 版本" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/01/06/使用 homebrew 更新 Mac PHP 版本/">使用 homebrew 更新 Mac PHP 版本</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2018/01/06/使用 homebrew 更新 Mac PHP 版本/" class="article-date">
+  <time datetime="2018-01-05T16:00:00.000Z" itemprop="datePublished">2018-01-06</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/现实像个o/">现实像个o</a>
+  </div>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h5 id="1-Install-brew-–-gt-http-brew-sh"><a href="#1-Install-brew-–-gt-http-brew-sh" class="headerlink" title="# 1. Install brew  –&gt; http://brew.sh/"></a># 1. Install brew  –&gt; <a href="http://brew.sh/" target="_blank" rel="external">http://brew.sh/</a></h5><h5 id="2-run-the-following-commands-in-your-Terminal"><a href="#2-run-the-following-commands-in-your-Terminal" class="headerlink" title="# 2. run the following commands in your Terminal"></a># 2. run the following commands in your Terminal</h5><p>brew tap homebrew/dupes</p>
+<p>brew tap homebrew/versions</p>
+<p>brew tap homebrew/homebrew-php</p>
+<p>brew install –with-openssl curl</p>
+<p>brew install –with-homebrew-curl –with-apache php71</p>
+<p>brew install php71-mcrypt php71-imagick</p>
+<h5 id="3-Follow-these-instructions-to-make-Apache-and-php-cli-use-the-newer-php-executable-and-make-the-change-persist-after-reboot"><a href="#3-Follow-these-instructions-to-make-Apache-and-php-cli-use-the-newer-php-executable-and-make-the-change-persist-after-reboot" class="headerlink" title="#3. Follow these instructions to make Apache and php-cli use the newer php executable and make the change persist after reboot."></a>#3. Follow these instructions to make Apache and php-cli use the newer php executable and make the change persist after reboot.</h5><p>brew info php71</p>
+<h5 id="restart-apache"><a href="#restart-apache" class="headerlink" title="# restart apache"></a># restart apache</h5><p>sudo apachectl restart</p>
+<h5 id="apply-PATH-changes-without-relogging"><a href="#apply-PATH-changes-without-relogging" class="headerlink" title="# apply PATH changes without relogging"></a># apply PATH changes without relogging</h5><p>source ~/.profile</p>
+<p>Gist：<a href="https://gist.github.com/pixeline/51c43c787f51b018d484597f30be3d2b" target="_blank" rel="external">https://gist.github.com/pixeline/51c43c787f51b018d484597f30be3d2b</a></p>
+
+      
+    </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/PHP/">PHP</a></li></ul>
+
+      </footer>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+    
       <article id="post-七月某日的碎片" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -322,62 +382,6 @@
 
 
     
-      <article id="post-OS X install NodeBB" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/03/08/OS X install NodeBB/">OS X 下安装 NodeBB</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-meta">
-      <a href="/2017/03/08/OS X install NodeBB/" class="article-date">
-  <time datetime="2017-03-07T16:00:00.000Z" itemprop="datePublished">2017-03-08</time>
-</a>
-      
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/现实像个o/">现实像个o</a>
-  </div>
-
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="安装-MongoDB-时遇到的问题"><a href="#安装-MongoDB-时遇到的问题" class="headerlink" title="安装 MongoDB 时遇到的问题"></a>安装 MongoDB 时遇到的问题</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install mongodb</div></pre></td></tr></table></figure>
-<p>出现下面的问题</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">bogon:NodeBB alan$ mongo</div><div class="line">MongoDB shell version v3.4.2</div><div class="line">connecting to: mongodb://127.0.0.1:27017</div><div class="line">2017-03-08T17:01:38.377+0800 W NETWORK  [thread1] Failed to connect to 127.0.0.1:27017, in(checking socket for error after poll), reason: Connection refused</div><div class="line">2017-03-08T17:01:38.377+0800 E QUERY    [thread1] Error: couldn&apos;t connect to server 127.0.0.1:27017, connection attempt failed :</div><div class="line">connect@src/mongo/shell/mongo.js:237:13</div><div class="line">@(connect):1:6</div><div class="line">exception: connect failed</div></pre></td></tr></table></figure>
-<p>错误原因：MongoDB 还没有运行。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew services start mongodb</div></pre></td></tr></table></figure>
-<h2 id="运行-NodeBB"><a href="#运行-NodeBB" class="headerlink" title="运行 NodeBB"></a>运行 NodeBB</h2><p>按照文档中的步骤去做（<a href="https://docs.nodebb.org/en/latest/installing/os/osx-mavericks.html" target="_blank" rel="external">https://docs.nodebb.org/en/latest/installing/os/osx-mavericks.html</a> ）， 全部选择默认就好了。</p>
-
-      
-    </div>
-    
-    
-      <footer class="article-footer">
-        
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/NodeBB/">NodeBB</a></li></ul>
-
-      </footer>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-    
       <nav id="page-nav">
         <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/">下一页 &raquo;</a>
       </nav>
@@ -386,7 +390,7 @@
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2017 pendax&nbsp;
+      &copy; 2018 pendax&nbsp;
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>, theme by <a href="http://github.com/ppoffice">PPOffice</a>
     </div>
   </div>
